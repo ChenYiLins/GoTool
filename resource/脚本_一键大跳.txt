@@ -1,0 +1,5 @@
+alias +cjump "+jump; +duck" 
+
+alias -cjump "-jump; -duck" 
+
+bind "alt" "+cjump"
