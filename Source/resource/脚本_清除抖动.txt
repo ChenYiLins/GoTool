@@ -1,0 +1,4 @@
+viewmodel_recoil 0
+cl_bob_lower_amt "0¡±
+cl_bobamt_lat "0¡±
+cl_bobamt_vert "0¡±

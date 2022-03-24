@@ -1,0 +1,2 @@
+bind "MWHEELUP" "+jump"
+bind "MWHEELDOWN" "+jump"
