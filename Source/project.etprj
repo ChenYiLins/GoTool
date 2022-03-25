@@ -8,5 +8,5 @@
     "NameStyle": 1,
     "Password": "",
     "ResetNames": [],
-    "Source": "../../Main/Project/主程序.e"
+    "Source": "../Project/主程序.e"
 }
