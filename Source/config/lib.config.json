@@ -1,0 +1,50 @@
+﻿[
+    {
+        "CmdCount": 228,
+        "Guid": "d09f2340818511d396f6aaf844c7e325",
+        "Key": "krnln",
+        "MaxRefConstPos": 4,
+        "MaxRefObjectPos": 49,
+        "Name": "系统核心支持库",
+        "Version": {
+            "Major": 5,
+            "Minor": 7
+        }
+    },
+    {
+        "CmdCount": 96,
+        "Guid": "{84A90340-1CE7-4C96-8FFC-FB0124DE9AD7}",
+        "Key": "exui",
+        "MaxRefConstPos": 0,
+        "MaxRefObjectPos": 19,
+        "Name": "EX_UI界面库",
+        "Version": {
+            "Major": 5197,
+            "Minor": 26
+        }
+    },
+    {
+        "CmdCount": 7,
+        "Guid": "52F260023059454187AF826A3C07AF2A",
+        "Key": "shell",
+        "MaxRefConstPos": 0,
+        "MaxRefObjectPos": 0,
+        "Name": "操作系统界面功能支持库",
+        "Version": {
+            "Major": 3,
+            "Minor": 0
+        }
+    },
+    {
+        "CmdCount": 5,
+        "Guid": "A512548E76954B6E92C21055517615B0",
+        "Key": "spec",
+        "MaxRefConstPos": 0,
+        "MaxRefObjectPos": 0,
+        "Name": "特殊功能支持库",
+        "Version": {
+            "Major": 3,
+            "Minor": 1
+        }
+    }
+]
