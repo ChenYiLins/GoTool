@@ -1,4 +1,4 @@
-![输入图片说明](Res/Photo.png)
+![输入图片说明](Res/Other/Photo.png)
 # CSGO Scipt
 
 ## 介绍
@@ -49,3 +49,5 @@ Source文件夹下是由"E2txt"生成的文本代码，可直接查看修改，�
 
 ## 支持我
 用爱发电，欢迎支持！ :kissing_closed_eyes: 
+![输入图片说明](Res/Other/Pay_1.png)
+![输入图片说明](Res/Other/Pay_2.png)
