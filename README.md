@@ -1,5 +1,5 @@
 ![输入图片说明](Res/Other/Photo.png)
-# CSGO Scipt
+# CSGO Script
 
 ## 介绍
 CSGO脚本管理软件
