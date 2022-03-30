@@ -3,7 +3,6 @@
 
 ## 介绍
 CSGO脚本管理软件
-软件截图
 ![输入图片说明](Res/Other/PrtSc-1.png)
 ![输入图片说明](Res/Other/PrtSc-2.png)
 
