@@ -18,6 +18,6 @@
         "Minor": 0
     },
     "TelephoneNumber": "",
-    "WriteVersion": true,
+    "WriteVersion": false,
     "ZipCode": ""
 }
