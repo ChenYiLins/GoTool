@@ -7,8 +7,8 @@ CSGO脚本管理软件
 ![输入图片说明](Res/Other/PrtSc-2.png)
 
 ## 下载
-1. [蓝奏云](http://wwn.lanzouq.com/i862H02c1n1a)
-2. [阿里云盘](http://www.aliyundrive.com/s/VqVsLuzDjwX)
+1. [蓝奏云](http://wwn.lanzouq.com/izowo02c2zvi)
+2. [阿里云盘](http://www.aliyundrive.com/s/gbyMPzR3cDr)
 
 ## 更新日志
 
