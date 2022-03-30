@@ -3,6 +3,13 @@
 
 ## 介绍
 CSGO脚本管理软件
+软件截图
+![输入图片说明](Res/Other/PrtSc-1.png)
+![输入图片说明](Res/Other/PrtSc-2.png)
+
+## 下载
+1. [蓝奏云](http://wwn.lanzouq.com/i862H02c1n1a)
+2. [阿里云盘](http://www.aliyundrive.com/s/VqVsLuzDjwX)
 
 ## 更新日志
 
@@ -51,5 +58,5 @@ Source文件夹下是由"E2txt"生成的文本代码，可直接查看修改，�
 
 用爱发电，欢迎支持！ :kissing_closed_eyes: 
 
-![输入图片说明](Res/Other/Pay_1.png)
-![输入图片说明](Res/Other/Pay_2.png)
+![输入图片说明](Res/Other/Pay-1.png)
+![输入图片说明](Res/Other/Pay-2.png)
