@@ -1,0 +1,7 @@
+﻿.版本 2
+
+.DLL命令 GdipCreateTexture, 整数型, "gdiplus", "GdipCreateTexture", 公开, 创建Gdi材质
+    .参数 Image, 整数型
+    .参数 WrapMd, 整数型
+    .参数 texture, 整数型, 传址
+

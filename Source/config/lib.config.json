@@ -1,9 +1,9 @@
 ﻿[
     {
-        "CmdCount": 416,
+        "CmdCount": 207,
         "Guid": "d09f2340818511d396f6aaf844c7e325",
         "Key": "krnln",
-        "MaxRefConstPos": 4,
+        "MaxRefConstPos": 22,
         "MaxRefObjectPos": 49,
         "Name": "系统核心支持库",
         "Version": {
@@ -12,11 +12,11 @@
         }
     },
     {
-        "CmdCount": 96,
+        "CmdCount": 0,
         "Guid": "{84A90340-1CE7-4C96-8FFC-FB0124DE9AD7}",
         "Key": "exui",
-        "MaxRefConstPos": 0,
-        "MaxRefObjectPos": 19,
+        "MaxRefConstPos": 121,
+        "MaxRefObjectPos": 0,
         "Name": "EX_UI界面库",
         "Version": {
             "Major": 5197,
@@ -24,19 +24,7 @@
         }
     },
     {
-        "CmdCount": 7,
-        "Guid": "52F260023059454187AF826A3C07AF2A",
-        "Key": "shell",
-        "MaxRefConstPos": 0,
-        "MaxRefObjectPos": 0,
-        "Name": "操作系统界面功能支持库",
-        "Version": {
-            "Major": 3,
-            "Minor": 0
-        }
-    },
-    {
-        "CmdCount": 5,
+        "CmdCount": 8,
         "Guid": "A512548E76954B6E92C21055517615B0",
         "Key": "spec",
         "MaxRefConstPos": 0,
@@ -45,6 +33,18 @@
         "Version": {
             "Major": 3,
             "Minor": 1
+        }
+    },
+    {
+        "CmdCount": 1,
+        "Guid": "5F99C1642A2F4e03850721B4F5D7C3F8",
+        "Key": "EThread",
+        "MaxRefConstPos": 0,
+        "MaxRefObjectPos": 0,
+        "Name": "多线程支持库",
+        "Version": {
+            "Major": 2,
+            "Minor": 0
         }
     }
 ]

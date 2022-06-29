@@ -1,0 +1,106 @@
+﻿.版本 2
+
+.数据类型 RectF, 公开
+    .成员 left, 小数型
+    .成员 top, 小数型
+    .成员 Width, 小数型
+    .成员 Height, 小数型
+
+.数据类型 PointF, 公开
+    .成员 x, 小数型
+    .成员 y, 小数型
+
+.数据类型 POINT, 公开
+    .成员 x, 整数型
+    .成员 y, 整数型
+
+.数据类型 RECT, 公开
+    .成员 left, 整数型
+    .成员 top, 整数型
+    .成员 right, 整数型
+    .成员 bottom, 整数型
+
+.数据类型 Pixel, 公开
+    .成员 b, 字节型
+    .成员 g, 字节型
+    .成员 r, 字节型
+    .成员 a, 字节型
+
+.数据类型 BITMAPINFOHEADER, 公开
+    .成员 biSize, 整数型
+    .成员 biWidth, 整数型
+    .成员 biHeight, 整数型
+    .成员 biPlanes, 短整数型
+    .成员 biBitCount, 短整数型
+    .成员 biCompression, 整数型
+    .成员 biSizeImage, 整数型
+    .成员 biXPelsPerMeter, 整数型
+    .成员 biYPelsPerMeter, 整数型
+    .成员 biClrUsed, 整数型
+    .成员 biClrImportant, 整数型
+
+.数据类型 BITMAPDATA, 公开
+    .成员 Width, 整数型
+    .成员 Height, 整数型
+    .成员 Stride, 整数型
+    .成员 PixelFormat, 整数型
+    .成员 Scan0, 整数型
+    .成员 Reserved, 整数型
+
+.数据类型 DIBSECTION, 公开
+    .成员 dsBm, BITMAP, , , 24
+    .成员 dsBmih, BITMAPINFOHEADER, , , 40
+    .成员 dsBitfields, 整数型, , "3", 12
+    .成员 dshSection, 整数型, , , 4
+    .成员 dsOffset, 整数型, , , 4
+
+.数据类型 BITMAP, 公开
+    .成员 bmType, 整数型
+    .成员 bmWidth, 整数型
+    .成员 bmHeight, 整数型
+    .成员 bmWidthBytes, 整数型
+    .成员 bmPlanes, 短整数型
+    .成员 bmBitsPixel, 短整数型
+    .成员 bmBits, 整数型
+
+.数据类型 SIZE, 公开
+    .成员 width, 整数型
+    .成员 height, 整数型
+
+.数据类型 MSG, 公开
+    .成员 hwnd, 整数型
+    .成员 message, 整数型
+    .成员 wParam, 整数型
+    .成员 lParam, 整数型
+    .成员 time, 整数型
+    .成员 pt, POINT
+
+.数据类型 Exs_PaintStruct, 公开
+    .成员 hWnd, 整数型, , , 窗口句柄
+    .成员 wObj, 整数型, , , 窗口指针
+    .成员 hTheme, 整数型, , , 主题句柄
+    .成员 mDc, 整数型, , , 组件设备
+    .成员 mGraphics, 整数型, , , 图形指针
+    .成员 pRcf, RectF, , , 绘画矩形
+    .成员 oRcf, RectF, , , 组件矩形
+    .成员 fErase, 逻辑型, , , 擦除背景
+    .成员 dwState, 整数型, , , 组件状态
+
+.数据类型 SIZEF, 公开
+    .成员 width, 小数型
+    .成员 height, 小数型
+
+.数据类型 Exs_Animation, 公开
+    .成员 hDc, 整数型, , , 目标设备
+    .成员 mDc, 整数型, , , 组件设备
+    .成员 oDc, 整数型, , , 旧设备
+    .成员 cDc, 整数型, , , 缓存设备
+    .成员 oRectf, RectF, , , 组件矩形
+    .成员 pRectf, RectF, , , 绘制矩形
+    .成员 uActive, 整数型, , , 当前帧
+    .成员 uFrames, 整数型, , , 总帧数
+    .成员 fProgress, 双精度小数型, , , 动画进度
+    .成员 Alp, 整数型, , , 组件透明度
+    .成员 OffsetX, 整数型, , , 偏移坐标
+    .成员 OffsetY, 整数型, , , 偏移坐标
+
