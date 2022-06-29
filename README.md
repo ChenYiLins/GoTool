@@ -1,5 +1,5 @@
 ![输入图片说明](Res/Other/Photo.png)
-# CSGO Script
+# GoTool
 
 ## 介绍
 CSGO脚本管理软件
