@@ -1,0 +1,39 @@
+﻿.版本 2
+
+.程序集 Ex_IUnknown, , 公开
+.子程序 ComInit, , 公开
+    
+
+.子程序 _Com, , 公开
+    
+
+.子程序 toCOM, , 公开
+    .参数 p, 字节集
+    .参数 ecx, 逻辑型, 可空
+
+    
+
+.子程序 getThis, 整数型, 公开, comthis
+    
+
+.子程序 ComRelease, , 公开
+    
+
+.子程序 _IUnknown, , 公开
+    
+
+.子程序 GetRef, 整数型, 公开
+    
+
+.子程序 QueryInterface, 整数型, 公开
+    .参数 riid, 整数型
+    .参数 ppvObject, 整数型, 参考
+
+    
+
+.子程序 AddRef, 整数型, 公开
+    
+
+.子程序 Release, 整数型, 公开
+    
+

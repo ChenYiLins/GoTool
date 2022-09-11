@@ -1,0 +1,10 @@
+2022-09-09 19:59:48 [信息] [ SectionCode::ParseLibInfo ]               开始解析【支持库】数据
+2022-09-09 19:59:48 [错误] [ E2TXT::OpenE ]                            解析段出错！[段] 程序段 [原因] 不支持OCX的载入！[NPK] wmp9.npk
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出文本代码
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               正在创建代码目录 [目录] E:/03 个人文件夹/04 EPL工程/GoTool/VideoSource/Video.代码/class
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出【类/程序集】文本代码
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出【DLL】文本代码
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出【全局变量】文本代码
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出【自定义数据】文本代码
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               开始写出【支持库】信息
+2022-09-09 19:59:48 [信息] [ SectionCode::WriteTxtCode ]               完成写出文本代码

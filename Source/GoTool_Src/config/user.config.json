@@ -1,0 +1,23 @@
+﻿{
+    "Address": "",
+    "Author": "ChenYiLin",
+    "BuilderVersion": {
+        "Major": 0,
+        "Minor": 0
+    },
+    "CompilePlugins": "",
+    "Copyright": "@ChenYiLin",
+    "Description": "GoTool For CSGO\r\n@备注:\r\nProgramer:v2.5\r\nUpdate:19\r\nExDirectUI:3.0.15.510\r\nWinUI Lib:1.3\r\nDocumentSearch:1.3",
+    "Email": "",
+    "ExportPublicClassMethod": false,
+    "FaxNumber": "",
+    "Homepage": "",
+    "Name": "GoTool",
+    "ReleaseVersion": {
+        "Major": 2,
+        "Minor": 5
+    },
+    "TelephoneNumber": "",
+    "WriteVersion": false,
+    "ZipCode": ""
+}

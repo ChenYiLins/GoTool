@@ -1,0 +1,844 @@
+﻿.版本 2
+
+.DLL命令 SetWindowLongW, 整数型, "user32.dll", "SetWindowLongW", 公开
+    .参数 hWnd, 整数型
+    .参数 nIndex, 整数型
+    .参数 dwNewLong, 整数型
+
+.DLL命令 GetWindowLongW, 整数型, "user32.dll", "GetWindowLongW", 公开
+    .参数 hWnd, 整数型
+    .参数 nIndex, 整数型
+
+.DLL命令 CreateWindowExW, 整数型, "user32.dll", "CreateWindowExW", 公开
+    .参数 dwExStyle, 整数型
+    .参数 lpClassName, 字节集, 传址
+    .参数 lpWindowName, 字节集, 传址
+    .参数 dwStyle, 整数型
+    .参数 X, 整数型
+    .参数 Y, 整数型
+    .参数 nWidth, 整数型
+    .参数 nHeight, 整数型
+    .参数 hWndParent, 整数型
+    .参数 hMenu, 整数型
+    .参数 hInstance, 整数型
+    .参数 lpParam, 整数型, 传址
+
+.DLL命令 GlobalFree, 整数型, "Kernel32.dll", "GlobalFree", 公开
+    .参数 hMem, 整数型
+
+.DLL命令 GlobalHandle, 整数型, "Kernel32.dll", "GlobalHandle", 公开
+    .参数 lpMem, 整数型
+
+.DLL命令 GlobalSize, 整数型, "kernel32.dll", "GlobalSize", 公开
+    .参数 hMem, 整数型
+
+.DLL命令 GlobalLock, 整数型, "Kernel32.dll", "GlobalLock", 公开
+    .参数 hMem, 整数型
+
+.DLL命令 GlobalUnlock, 整数型, "Kernel32.dll", "GlobalUnlock", 公开
+    .参数 hMem, 整数型
+
+.DLL命令 GlobalAlloc, 整数型, "Kernel32.dll", "GlobalAlloc", 公开
+    .参数 wFlags, 整数型
+    .参数 dwBytes, 整数型
+
+.DLL命令 CreateStreamOnHGlobal, 整数型, "Ole32.dll", "CreateStreamOnHGlobal", 公开
+    .参数 hGlobal, 整数型
+    .参数 fDeleteOnRelease, 逻辑型
+    .参数 ppstm, 整数型, 传址
+
+.DLL命令 GdipLoadImageFromStream, 整数型, "GdiPlus.dll", "GdipLoadImageFromStream", 公开
+    .参数 Stream, 整数型
+    .参数 Image, 整数型, 传址
+
+.DLL命令 GdipLoadImageFromFile, 整数型, "GdiPlus.dll", "GdipLoadImageFromFile", 公开
+    .参数 FileName, 字节集, , Unicode
+    .参数 Image, 整数型, 传址
+
+.DLL命令 GdipDisposeImage, 整数型, "GdiPlus.dll", "GdipDisposeImage", 公开
+    .参数 Image, 整数型
+
+.DLL命令 GdipCreateBitmapFromScan0, 整数型, "GdiPlus.dll", "GdipCreateBitmapFromScan0", 公开
+    .参数 width, 整数型
+    .参数 height, 整数型
+    .参数 stride, 整数型
+    .参数 format, 整数型
+    .参数 scan0, 整数型
+    .参数 bitmap, 整数型, 传址
+
+.DLL命令 GdipGetImageWidth, 整数型, "GdiPlus.dll", "GdipGetImageWidth", 公开
+    .参数 Image, 整数型
+    .参数 Width, 整数型, 传址
+
+.DLL命令 GdipGetImageHeight, 整数型, "GdiPlus.dll", "GdipGetImageHeight", 公开
+    .参数 Image, 整数型
+    .参数 Height, 整数型, 传址
+
+.DLL命令 GdipBitmapGetPixel, 整数型, "gdiplus.dll", "GdipBitmapGetPixel", 公开
+    .参数 bitmap, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+    .参数 color, 整数型, 传址
+
+.DLL命令 GdipImageGetFrameCount, 整数型, "gdiplus.dll", "GdipImageGetFrameCount", 公开
+    .参数 Image, 整数型
+    .参数 dimensionID, 字节集
+    .参数 count, 整数型, 传址
+
+.DLL命令 GdipGetPropertyItemSize, 整数型, "gdiplus.dll", "GdipGetPropertyItemSize", 公开
+    .参数 Image, 整数型
+    .参数 propId, 整数型
+    .参数 size, 整数型, 传址
+
+.DLL命令 GdipGetPropertyItem, 整数型, "gdiplus.dll", "GdipGetPropertyItem", 公开
+    .参数 Image, 整数型
+    .参数 propId, 整数型
+    .参数 propSize, 整数型
+    .参数 buffer, 字节集
+
+.DLL命令 CopyMemory_p2int_arg, , "kernel32.dll", "RtlMoveMemory", 公开
+    .参数 Destination, 整数型, 数组
+    .参数 Source, 整数型
+    .参数 Length, 整数型
+
+.DLL命令 GdipImageSelectActiveFrame, 整数型, "gdiplus.dll", "GdipImageSelectActiveFrame", 公开
+    .参数 Image, 整数型
+    .参数 dimensionID, 字节集
+    .参数 frameIndex, 整数型
+
+.DLL命令 GetObjectW, 整数型, "gdi32.dll", "GetObjectW", 公开
+    .参数 hgdiobj, 整数型
+    .参数 cbBuffer, 整数型
+    .参数 lpvObject, 整数型
+
+.DLL命令 DeleteObject, 整数型, "gdi32.dll", "DeleteObject", 公开
+    .参数 hObject, 整数型
+
+.DLL命令 CopyImage, 整数型, "user32.dll", "CopyImage", 公开
+    .参数 hImage, 整数型
+    .参数 uType, 整数型
+    .参数 cxDesired, 整数型
+    .参数 cyDesired, 整数型
+    .参数 fuFlags, 整数型
+
+.DLL命令 GdipGetImagePixelFormat, 整数型, "gdiplus.dll", "GdipGetImagePixelFormat", 公开
+    .参数 Image, 整数型
+    .参数 PixelFormat, 整数型, 传址
+
+.DLL命令 GdipBitmapLockBits, 整数型, "gdiplus.dll", "GdipBitmapLockBits", 公开
+    .参数 bitmap, 整数型
+    .参数 rect, RECT
+    .参数 flags, 整数型
+    .参数 PixelFormat, 整数型
+    .参数 lockedBitmapData, BITMAPDATA
+
+.DLL命令 GdipBitmapUnlockBits, 整数型, "gdiplus.dll", "GdipBitmapUnlockBits", 公开
+    .参数 bitmap, 整数型
+    .参数 lockedBitmapData, BITMAPDATA
+
+.DLL命令 CLSIDFromString, 整数型, "ole32.dll", "CLSIDFromString", 公开
+    .参数 lpsz, 字节集
+    .参数 pclsid, 字节集, 传址
+
+.DLL命令 VirtualAlloc, 整数型, "kernel32.dll", "VirtualAlloc", 公开
+    .参数 lpAddress, 整数型
+    .参数 dwSize, 整数型
+    .参数 flAllocationType, 整数型
+    .参数 flProtect, 整数型
+
+.DLL命令 VirtualProtect, 整数型, "kernel32.dll", "VirtualProtect", 公开
+    .参数 lpAddress, 整数型
+    .参数 dwSize, 整数型
+    .参数 flNewProtect, 整数型
+    .参数 lpflOldProtect, 整数型, 传址
+
+.DLL命令 VirtualFree, 逻辑型, "kernel32.dll", "VirtualFree", 公开
+    .参数 lpAddress, 整数型
+    .参数 dwSize, 整数型
+    .参数 dwFreeType, 整数型
+
+.DLL命令 IsWindow, 逻辑型, "user32.dll", "IsWindow", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 CallWindowProcW, 整数型, "user32.dll", "CallWindowProcW", 公开
+    .参数 lpPrevWndFunc, 整数型
+    .参数 hWnd, 整数型
+    .参数 Msg, 整数型
+    .参数 wParam, 整数型
+    .参数 lParam, 整数型
+
+.DLL命令 CreateCompatibleDC, 整数型, "Gdi32.dll", "CreateCompatibleDC", 公开
+    .参数 设备场景句柄, 整数型
+
+.DLL命令 SelectObject, 整数型, "gdi32.dll", "SelectObject", 公开
+    .参数 hdc, 整数型
+    .参数 hobject, 整数型
+
+.DLL命令 GetDIBits, 整数型, "gdi32.dll", "GetDIBits", 公开
+    .参数 hdc, 整数型
+    .参数 hbmp, 整数型
+    .参数 uStartScan, 整数型
+    .参数 cScanLines, 整数型
+    .参数 lpvBits, 整数型
+    .参数 lpbi, <?未知本地类型?>, 传址
+    .参数 uUsage, 整数型
+
+.DLL命令 DeleteDC, 整数型, "gdi32.dll", "DeleteDC", 公开
+    .参数 hDC, 整数型
+
+.DLL命令 GetCurrentProcess, 整数型, "Kernel32.dll", "GetCurrentProcess", 公开
+
+.DLL命令 GetWindowRect, 整数型, "user32.dll", "GetWindowRect", 公开
+    .参数 hwnd, 整数型
+    .参数 lpRect, RECT
+
+.DLL命令 GetDC, 整数型, "user32.dll", "GetDC", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 GdipDeleteGraphics, 整数型, "gdiplus.dll", "GdipDeleteGraphics", 公开
+    .参数 graphics, 整数型
+
+.DLL命令 CreateDIBSection, 整数型, "gdi32.dll", "CreateDIBSection", 公开
+    .参数 hdc, 整数型
+    .参数 pbmi, <?未知本地类型?>, 传址
+    .参数 iUsage, 整数型
+    .参数 ppvBits, 整数型, 传址
+    .参数 hSection, 整数型
+    .参数 dwOffset, 整数型
+
+.DLL命令 GdipCreateFromHDC, 整数型, "gdiplus.dll", "GdipCreateFromHDC", 公开
+    .参数 hDC, 整数型
+    .参数 graphics, 整数型, 传址
+
+.DLL命令 GdipSetTextRenderingHint, 整数型, "GdiPlus.dll", "GdipSetTextRenderingHint", 公开
+    .参数 graphics, 整数型
+    .参数 mode, 整数型
+
+.DLL命令 GetSystemMetrics, 整数型, "user32.dll", "GetSystemMetrics", 公开
+    .参数 index, 整数型
+
+.DLL命令 GdipCreateFontFamilyFromName, 整数型, "GdiPlus.dll", "GdipCreateFontFamilyFromName", 公开
+    .参数 Name, 字节集
+    .参数 FontCollection, 整数型
+    .参数 FontFamily, 整数型, 传址
+
+.DLL命令 GdipDeleteFontFamily, 整数型, "GdiPlus.dll", "GdipDeleteFontFamily", 公开
+    .参数 FontFamily, 整数型
+
+.DLL命令 GdipCreateFont, 整数型, "GdiPlus.dll", "GdipCreateFont", 公开
+    .参数 fontFamily, 整数型
+    .参数 emSize, 小数型
+    .参数 style, 整数型
+    .参数 unit, 整数型
+    .参数 font, 整数型, 传址
+
+.DLL命令 SystemParametersInfo, 逻辑型, "user32.dll", "SystemParametersInfoA", 公开
+    .参数 uAction, 整数型
+    .参数 uParam, 整数型
+    .参数 lpvParam, 整数型
+    .参数 fuWinIni, 整数型
+
+.DLL命令 GdipDeleteFont, 整数型, "GdiPlus.dll", "GdipDeleteFont", 公开
+    .参数 font, 整数型
+
+.DLL命令 GdipGetFamily, 整数型, "gdiplus", "GdipGetFamily", 公开
+    .参数 curFont, 整数型
+    .参数 family, 整数型, 传址
+
+.DLL命令 WideCharToMultiByte, 整数型, "kernel32.dll", "WideCharToMultiByte", 公开
+    .参数 代码页, 整数型
+    .参数 标志, 整数型
+    .参数 宽字符文本指针, 整数型
+    .参数 宽字符文本长度, 整数型
+    .参数 双字节文本, 文本型
+    .参数 双字节文本长度, 整数型
+    .参数 默认文本, 整数型
+    .参数 使用默认文本, 整数型
+
+.DLL命令 GdipGraphicsClear, 整数型, "gdiplus.dll", "GdipGraphicsClear", 公开
+    .参数 graphics, 整数型
+    .参数 lColor, 整数型
+
+.DLL命令 GdipDrawImageRect, 整数型, "GdiPlus.dll", "GdipDrawImageRect", 公开
+    .参数 Graphics, 整数型
+    .参数 Image, 整数型
+    .参数 X, 小数型
+    .参数 Y, 小数型
+    .参数 Width, 小数型
+    .参数 Height, 小数型
+
+.DLL命令 GdipDrawImageRectRect, 整数型, "GdiPlus.dll", "GdipDrawImageRectRect", 公开
+    .参数 Graphics, 整数型
+    .参数 Image, 整数型
+    .参数 dstx, 小数型
+    .参数 dsty, 小数型
+    .参数 dstwidth, 小数型
+    .参数 dstheight, 小数型
+    .参数 srcx, 小数型
+    .参数 srcy, 小数型
+    .参数 srcwidth, 小数型
+    .参数 srcheight, 小数型
+    .参数 srcUnit, 整数型
+    .参数 ImageAttributes, 整数型
+    .参数 Callback, 整数型
+    .参数 CallbackData, 整数型, 传址
+
+.DLL命令 GdipCreateLineBrushFromRect, 整数型, "gdiplus.dll", "GdipCreateLineBrushFromRect", 公开
+    .参数 rect, RectF
+    .参数 color1, 整数型
+    .参数 color2, 整数型
+    .参数 Mode, 整数型
+    .参数 WrapMd, 整数型
+    .参数 lineGradient, 整数型, 传址
+
+.DLL命令 GdipFillRectangle, 整数型, "gdiplus.dll", "GdipFillRectangle", 公开
+    .参数 graphics, 整数型
+    .参数 Brush, 整数型
+    .参数 x, 小数型
+    .参数 y, 小数型
+    .参数 Width, 小数型
+    .参数 Height, 小数型
+
+.DLL命令 GdipDeleteBrush, 整数型, "GdiPlus.dll", "GdipDeleteBrush", 公开
+    .参数 brush, 整数型
+
+.DLL命令 GdipCreateImageAttributes, 整数型, "gdiplus.dll", "GdipCreateImageAttributes", 公开
+    .参数 imageattr, 整数型, 传址
+
+.DLL命令 GdipDisposeImageAttributes, 整数型, "gdiplus.dll", "GdipDisposeImageAttributes", 公开
+    .参数 imageattr, 整数型
+
+.DLL命令 BitBlt, 逻辑型, "gdi32.dll", "BitBlt", 公开
+    .参数 hdcDest, 整数型
+    .参数 nXDest, 整数型
+    .参数 nYDest, 整数型
+    .参数 nWidth, 整数型
+    .参数 nHeight, 整数型
+    .参数 hdcSrc, 整数型
+    .参数 nXSrc, 整数型
+    .参数 nYSrc, 整数型
+    .参数 dwRop, 整数型
+
+.DLL命令 EndPaint, 整数型, "user32.dll", "EndPaint", 公开
+    .参数 hWnd, 整数型
+    .参数 lpPaint, <?未知本地类型?>
+
+.DLL命令 BeginPaint, 整数型, "user32.dll", "BeginPaint", 公开
+    .参数 hWnd, 整数型
+    .参数 lpPaint, <?未知本地类型?>
+
+.DLL命令 IsIconic, 逻辑型, "user32.dll", "IsIconic", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 CreateRoundRectRgn, 整数型, "gdi32.dll", "CreateRoundRectRgn", 公开
+    .参数 X1, 整数型
+    .参数 Y1, 整数型
+    .参数 X2, 整数型
+    .参数 Y2, 整数型
+    .参数 X3, 整数型
+    .参数 Y3, 整数型
+
+.DLL命令 SetWindowRgn, 整数型, "user32.dll", "SetWindowRgn", 公开
+    .参数 hWnd, 整数型
+    .参数 hRgn, 整数型
+    .参数 bRedraw, 逻辑型
+
+.DLL命令 GdipCreatePen1, 整数型, "gdiplus", "GdipCreatePen1", 公开
+    .参数 color, 整数型
+    .参数 Width, 小数型
+    .参数 unit, 整数型
+    .参数 pen, 整数型, 传址
+
+.DLL命令 GdipDrawRectangle, 整数型, "GdiPlus.dll", "GdipDrawRectangle", 公开
+    .参数 graphics, 整数型
+    .参数 pen, 整数型
+    .参数 x, 小数型
+    .参数 y, 小数型
+    .参数 width, 小数型
+    .参数 height, 小数型
+
+.DLL命令 GdipDeletePen, 整数型, "GdiPlus.dll", "GdipDeletePen", 公开
+    .参数 pen, 整数型
+
+.DLL命令 GdipDrawLine, 整数型, "gdiplus", "GdipDrawLine", 公开
+    .参数 graphics, 整数型
+    .参数 pen, 整数型
+    .参数 x1, 小数型
+    .参数 y1, 小数型
+    .参数 x2, 小数型
+    .参数 y2, 小数型
+
+.DLL命令 GdipSetPenDashStyle, 整数型, "gdiplus.dll", "GdipSetPenDashStyle", 公开
+    .参数 pen, 整数型
+    .参数 dStyle, 整数型
+
+.DLL命令 SendMessageA, 整数型, "user32.dll", "SendMessageA", 公开
+    .参数 hwnd, 整数型
+    .参数 msg, 整数型
+    .参数 wParam, 整数型
+    .参数 lParam, 整数型
+
+.DLL命令 SendMessageW, 整数型, "user32.dll", "SendMessageW", 公开
+    .参数 hwnd, 整数型
+    .参数 msg, 整数型
+    .参数 wParam, 整数型
+    .参数 lParam, 整数型
+
+.DLL命令 GdipCreatePath, 整数型, "gdiplus.dll", "GdipCreatePath", 公开
+    .参数 brushmode, 整数型
+    .参数 path, 整数型, 传址
+
+.DLL命令 GdipAddPathArc, 整数型, "gdiplus.dll", "GdipAddPathArc", 公开
+    .参数 path, 整数型
+    .参数 x, 小数型
+    .参数 y, 小数型
+    .参数 Width, 小数型
+    .参数 Height, 小数型
+    .参数 startAngle, 小数型
+    .参数 sweepAngle, 小数型
+
+.DLL命令 GdipClosePathFigure, 整数型, "gdiplus.dll", "GdipClosePathFigure", 公开
+    .参数 path, 整数型
+
+.DLL命令 GdipFillPath, 整数型, "gdiplus.dll", "GdipFillPath", 公开
+    .参数 graphics, 整数型
+    .参数 Brush, 整数型
+    .参数 path, 整数型
+
+.DLL命令 GdipDeletePath, 整数型, "gdiplus.dll", "GdipDeletePath", 公开
+    .参数 path, 整数型
+
+.DLL命令 GdipDrawPath, 整数型, "gdiplus.dll", "GdipDrawPath", 公开
+    .参数 graphics, 整数型
+    .参数 pen, 整数型
+    .参数 path, 整数型
+
+.DLL命令 GdipSetSmoothingMode, 整数型, "GdiPlus.dll", "GdipSetSmoothingMode", 公开
+    .参数 graphics, 整数型
+    .参数 smoothingMode, 整数型
+
+.DLL命令 UpdateLayeredWindow, 逻辑型, "User32.dll", "UpdateLayeredWindow", 公开
+    .参数 hWnd, 整数型
+    .参数 hdcDst, 整数型
+    .参数 pptDst, 整数型
+    .参数 psize, 整数型
+    .参数 hdcSrc, 整数型
+    .参数 pptSrc, 长整数型, 传址
+    .参数 crKey, 整数型
+    .参数 pblend, 字节集, 传址
+    .参数 dwFlags, 整数型
+
+.DLL命令 GdipSetClipRect, 整数型, "gdiplus.dll", "GdipSetClipRect", 公开
+    .参数 graphics, 整数型
+    .参数 x, 小数型
+    .参数 y, 小数型
+    .参数 Width, 小数型
+    .参数 Height, 小数型
+    .参数 CombineMd, 整数型
+
+.DLL命令 GdipResetClip, 整数型, "gdiplus.dll", "GdipResetClip", 公开
+    .参数 graphics, 整数型
+
+.DLL命令 GdipSetClipPath, 整数型, "gdiplus.dll", "GdipSetClipPath", 公开
+    .参数 graphics, 整数型
+    .参数 path, 整数型
+    .参数 CombineMd, 整数型
+
+.DLL命令 GdipGetImageGraphicsContext, 整数型, "GdiPlus.dll", "GdipGetImageGraphicsContext", 公开
+    .参数 image, 整数型
+    .参数 graphics, 整数型, 传址
+
+.DLL命令 AlphaBlend, 逻辑型, "gdi32.dll", "GdiAlphaBlend", 公开
+    .参数 desthdc, 整数型
+    .参数 dx, 整数型
+    .参数 dy, 整数型
+    .参数 dwidth, 整数型
+    .参数 dheight, 整数型
+    .参数 srchdc, 整数型
+    .参数 sx, 整数型
+    .参数 sy, 整数型
+    .参数 sw, 整数型
+    .参数 sh, 整数型
+    .参数 BlendFunc, 整数型
+
+.DLL命令 ShowWindow, 逻辑型, "user32.dll", "ShowWindow", 公开
+    .参数 hWnd, 整数型
+    .参数 nCmdShow, 整数型
+
+.DLL命令 ReleaseDC, 整数型, "user32.dll", "ReleaseDC", 公开
+    .参数 hwnd, 整数型
+    .参数 hdc, 整数型
+
+.DLL命令 GdipDrawImagePoints, 整数型, "gdiplus.dll", "GdipDrawImagePoints", 公开
+    .参数 graphics, 整数型
+    .参数 Image, 整数型
+    .参数 dstpoints, PointF, 数组
+    .参数 count, 整数型
+
+.DLL命令 GetModuleHandleW, 整数型, "kernel32.dll", "GetModuleHandleW", 公开
+    .参数 lpModuleName, 字节集, 传址
+
+.DLL命令 IsZoomed, 逻辑型, "user32.dll", "IsZoomed", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 LoadIconW, 整数型, "user32.dll", "LoadIconW", 公开
+    .参数 实例句柄, 整数型
+    .参数 图标标识, 整数型
+
+.DLL命令 LoadCursorW, 整数型, "user32.dll", "LoadCursorW", 公开
+    .参数 hlnstance, 整数型
+    .参数 lpCursorName, 整数型
+
+.DLL命令 DefWindowProcW, 整数型, "user32.dll", "DefWindowProcW", 公开
+    .参数 hwnd, 整数型
+    .参数 wMsg, 整数型
+    .参数 wParam, 整数型
+    .参数 lParam, 整数型
+
+.DLL命令 UpdateWindow, 整数型, "user32.dll", "UpdateWindow", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 GetMessageW, 整数型, "user32.dll", "GetMessageW", 公开
+    .参数 lpMsg, MSG
+    .参数 hwnd, 整数型
+    .参数 wMsgFilterMin, 整数型
+    .参数 wMsgFilterMax, 整数型
+
+.DLL命令 TranslateMessage, 整数型, "user32.dll", "TranslateMessage", 公开
+    .参数 lpMsg, MSG
+
+.DLL命令 DispatchMessageW, 整数型, "user32.dll", "DispatchMessageW", 公开
+    .参数 lpMsg, MSG
+
+.DLL命令 SetCursor, 整数型, "user32.dll", "SetCursor", 公开
+    .参数 指针句柄, 整数型, ,   
+
+.DLL命令 GetFocus, 整数型, "user32.dll", "GetFocus", 公开
+
+.DLL命令 SetFocus, 逻辑型, "user32.dll", "SetFocus", 公开
+    .参数 hWnd, 整数型
+
+.DLL命令 PostMessageW, 整数型, "user32.dll", "PostMessageW", 公开
+    .参数 hwnd, 整数型
+    .参数 msg, 整数型
+    .参数 wParam, 整数型
+    .参数 lParam, 整数型
+
+.DLL命令 SetCapture, 整数型, "user32.dll", "SetCapture", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 SetWindowPos, 整数型, "user32.dll", "SetWindowPos", 公开
+    .参数 hwnd, 整数型
+    .参数 hWndInsertAfter, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+    .参数 cx, 整数型
+    .参数 cy, 整数型
+    .参数 wFlags, 整数型
+
+.DLL命令 GdipAddPathString, 整数型, "gdiplus.dll", "GdipAddPathString", 公开
+    .参数 path, 整数型
+    .参数 str, 字节集
+    .参数 Length, 整数型
+    .参数 family, 整数型
+    .参数 style, 整数型
+    .参数 emSize, 小数型
+    .参数 layoutRect, RectF
+    .参数 StringFormat, 整数型
+
+.DLL命令 lstrlenw, 整数型, "kernel32.dll", "lstrlenW", 公开
+    .参数 dqcs, 字节集
+
+.DLL命令 GdipGetFontStyle, 整数型, "gdiplus.dll", "GdipGetFontStyle", 公开
+    .参数 curFont, 整数型
+    .参数 style, 整数型, 传址
+
+.DLL命令 GdipGetFontSize, 整数型, "gdiplus.dll", "GdipGetFontSize", 公开
+    .参数 curFont, 整数型
+    .参数 size, 小数型, 传址
+
+.DLL命令 GdipDrawString, 整数型, "GdiPlus.dll", "GdipDrawString", 公开
+    .参数 graphics, 整数型
+    .参数 string, 字节集
+    .参数 length, 整数型
+    .参数 font, 整数型
+    .参数 layoutRect, RectF
+    .参数 stringFormat, 整数型
+    .参数 brush, 整数型
+
+.DLL命令 GdipSetPathFillMode, 整数型, "gdiplus.dll", "GdipSetPathFillMode", 公开
+    .参数 path, 整数型
+    .参数 brushmode, 整数型
+
+.DLL命令 InvalidateRect, 逻辑型, "user32.dll", "InvalidateRect", 公开
+    .参数 hWnd, 整数型
+    .参数 lpRect, 整数型
+    .参数 bErase, 逻辑型
+
+.DLL命令 ReleaseCapture, 整数型, "user32.dll", "ReleaseCapture", 公开
+
+.DLL命令 GetClassLongW, 整数型, "User32.dll", "GetClassLongW", 公开
+    .参数 hWnd, 整数型
+    .参数 nIndex, 整数型
+
+.DLL命令 DrawIconEx, 逻辑型, "User32.dll", "DrawIconEx", 公开
+    .参数 hdc, 整数型
+    .参数 xLeft, 整数型
+    .参数 yTop, 整数型
+    .参数 hIcon, 整数型
+    .参数 cxWidth, 整数型
+    .参数 cyWidth, 整数型
+    .参数 istepIfAniCur, 整数型
+    .参数 hbrFlickerFreeDraw, 整数型
+    .参数 diFlags, 整数型
+
+.DLL命令 GdipGetVisibleClipBounds, 整数型, "gdiplus.dll", "GdipGetVisibleClipBounds", 公开
+    .参数 graphics, 整数型
+    .参数 rect, RectF, 传址
+
+.DLL命令 KillTimer, 整数型, "user32.dll", "KillTimer", 公开
+    .参数 hwnd, 整数型
+    .参数 nIDEvent, 整数型
+
+.DLL命令 CloseHandle, 整数型, "Kernel32.dll", "CloseHandle", 公开
+    .参数 hHandle, 整数型
+
+.DLL命令 CreateThread, 整数型, "Kernel32.dll", "CreateThread", 公开
+    .参数 Section, 整数型
+    .参数 StackSize, 整数型
+    .参数 proc, 整数型
+    .参数 pararm, 整数型
+    .参数 flag, 整数型
+    .参数 pTID, 整数型, 传址
+
+.DLL命令 DestroyWindow, 整数型, "user32.dll", "DestroyWindow", 公开
+    .参数 hwnd, 整数型
+
+.DLL命令 DestroyIcon, 整数型, "user32.dll", "DestroyIcon", 公开
+    .参数 图标句柄, 整数型, , ;
+
+.DLL命令 GdipSetCompositingQuality, 整数型, "gdiplus.dll", "GdipSetCompositingQuality", 公开
+    .参数 graphics, 整数型
+    .参数 CompositingQlty, 整数型
+
+.DLL命令 GdipSetInterpolationMode, 整数型, "gdiplus.dll", "GdipSetInterpolationMode", 公开
+    .参数 graphics, 整数型
+    .参数 interpolation, 整数型
+
+.DLL命令 GdipDeleteStringFormat, 整数型, "gdiplus.dll", "GdipDeleteStringFormat", 公开
+    .参数 StringFormat, 整数型
+
+.DLL命令 GdipGetFontHeight, 整数型, "gdiplus.dll", "GdipGetFontHeight", 公开
+    .参数 curFont, 整数型
+    .参数 graphics, 整数型
+    .参数 Height, 小数型, 传址
+
+.DLL命令 GdipDeleteRegion, 整数型, "gdiplus.dll", "GdipDeleteRegion", 公开
+    .参数 region, 整数型
+
+.DLL命令 GdipCreateRegion, 整数型, "gdiplus.dll", "GdipCreateRegion", 公开
+    .参数 region, 整数型, 传址
+
+.DLL命令 GdipMeasureCharacterRanges, 整数型, "gdiplus.dll", "GdipMeasureCharacterRanges", 公开
+    .参数 graphics, 整数型
+    .参数 str, 字节集
+    .参数 Length, 整数型
+    .参数 thefont, 整数型
+    .参数 layoutRect, RectF
+    .参数 StringFormat, 整数型
+    .参数 regionCount, 整数型
+    .参数 regions, 整数型, 数组
+
+.DLL命令 GdipGetRegionBounds, 整数型, "gdiplus.dll", "GdipGetRegionBounds", 公开
+    .参数 region, 整数型
+    .参数 graphics, 整数型
+    .参数 rect, RectF
+
+.DLL命令 GdipCreateMatrix, 整数型, "gdiplus.dll", "GdipCreateMatrix", 公开
+    .参数 matrix, 整数型, 传址
+
+.DLL命令 GdipGetRegionScans, 整数型, "gdiplus.dll", "GdipGetRegionScans", 公开
+    .参数 region, 整数型
+    .参数 rects, RectF, 传址 数组
+    .参数 count, 整数型, 传址
+    .参数 matrix, 整数型
+
+.DLL命令 GdipDeleteMatrix, 整数型, "gdiplus.dll", "GdipDeleteMatrix", 公开
+    .参数 matrix, 整数型
+
+.DLL命令 GetKeyState, 短整数型, "user32.dll", "GetKeyState", 公开
+    .参数 nVirtKey, 整数型
+
+.DLL命令 LoadImageW, 整数型, "user32.dll", "LoadImageW", 公开
+    .参数 hinst, 整数型
+    .参数 lpszName, 字节集, 传址
+    .参数 uType, 整数型
+    .参数 cxDesired, 整数型
+    .参数 cyDesired, 整数型
+    .参数 fuLoad, 整数型
+
+.DLL命令 ImageList_GetIcon, 整数型, "comctl32.dll", "ImageList_GetIcon", 公开
+    .参数 himl, 整数型
+    .参数 i, 整数型
+    .参数 flags, 整数型
+
+.DLL命令 GdipGetDC, 整数型, "gdiplus.dll", "GdipGetDC", 公开
+    .参数 graphics, 整数型
+    .参数 hDC, 整数型, 传址
+
+.DLL命令 GdipReleaseDC, 整数型, "gdiplus.dll", "GdipReleaseDC", 公开
+    .参数 graphics, 整数型
+    .参数 hDC, 整数型
+
+.DLL命令 GetCursorPos, 逻辑型, "user32.dll", "GetCursorPos", 公开
+    .参数 lpPoint, POINT
+
+.DLL命令 EnableWindow, 逻辑型, "user32.dll", "EnableWindow", 公开
+    .参数 hWnd, 整数型
+    .参数 bool, 逻辑型
+
+.DLL命令 SetForegroundWindow, 逻辑型, "user32.dll", "SetForegroundWindow", 公开
+    .参数 hWnd, 整数型
+
+.DLL命令 GetForegroundWindow, 整数型, "user32.dll", "GetForegroundWindow", 公开
+
+.DLL命令 SetActiveWindow, 整数型, "user32.dll", "SetActiveWindow", 公开
+    .参数 hWnd, 整数型
+
+.DLL命令 GdipCreateCachedBitmap, 整数型, "gdiplus.dll", "GdipCreateCachedBitmap", 公开
+    .参数 bitmap, 整数型
+    .参数 graphics, 整数型
+    .参数 cachedBitmap, 整数型, 传址
+
+.DLL命令 GdipDeleteCachedBitmap, 整数型, "gdiplus.dll", "GdipDeleteCachedBitmap", 公开
+    .参数 cachedBitmap, 整数型
+
+.DLL命令 GdipDrawCachedBitmap, 整数型, "gdiplus.dll", "GdipDrawCachedBitmap", 公开
+    .参数 graphics, 整数型
+    .参数 cachedBitmap, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+
+.DLL命令 WindowFromPoint, 整数型, "user32", "WindowFromPoint", 公开
+    .参数 x, 整数型
+    .参数 y, 整数型
+
+.DLL命令 GetParent, 整数型, "user32.dll", "GetParent", 公开
+    .参数 hWnd, 整数型
+
+.DLL命令 PostQuitMessage, , "user32.dll", "PostQuitMessage", 公开
+    .参数 exitcode, 整数型
+
+.DLL命令 GetPixel, 整数型, "gdi32.dll", "GetPixel", 公开
+    .参数 hdc, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+
+.DLL命令 MoveWindow, 整数型, "User32.dll", "MoveWindow", 公开
+    .参数 hWnd, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+    .参数 nWidth, 整数型
+    .参数 nHeight, 整数型
+    .参数 bRepaint, 逻辑型
+
+.DLL命令 LoadCursorFromFileW, 整数型, "user32.dll", "LoadCursorFromFileW", 公开
+    .参数 lpFileName, 字节集, 传址
+
+.DLL命令 GdipCreateRegionRect, 整数型, "gdiplus.dll", "GdipCreateRegionRect", 公开
+    .参数 rect, RectF
+    .参数 region, 整数型, 传址
+
+.DLL命令 GdipCreateRegionHrgn, 整数型, "gdiplus.dll", "GdipCreateRegionHrgn", 公开
+    .参数 hRgn, 整数型
+    .参数 region, 整数型, 传址
+
+.DLL命令 GdipCreateRegionPath, 整数型, "gdiplus.dll", "GdipCreateRegionPath", 公开
+    .参数 path, 整数型
+    .参数 region, 整数型, 传址
+
+.DLL命令 GdipCloneImage, 整数型, "gdiplus.dll", "GdipCloneImage", 公开
+    .参数 Image, 整数型
+    .参数 cloneImage, 整数型, 传址
+
+.DLL命令 GdipCreateLineBrush, 整数型, "gdiplus.dll", "GdipCreateLineBrush", 公开
+    .参数 Point1, PointF
+    .参数 Point2, PointF
+    .参数 color1, 整数型
+    .参数 color2, 整数型
+    .参数 WrapMd, 整数型
+    .参数 lineGradient, 整数型, 传址
+
+.DLL命令 GdipCreatePen2, 整数型, "gdiplus.dll", "GdipCreatePen2", 公开
+    .参数 Brush, 整数型
+    .参数 Width, 小数型
+    .参数 unit, 整数型
+    .参数 pen, 整数型, 传址
+
+.DLL命令 GdipSetStringFormatTabStops, 整数型, "gdiplus", "GdipSetStringFormatTabStops", 公开
+    .参数 StringFormat, 整数型
+    .参数 firstTabOffset, 小数型
+    .参数 count, 整数型
+    .参数 tabStops, 小数型, 数组
+
+.DLL命令 GetExitCodeThread, 整数型, "kernel32", "GetExitCodeThread", 公开
+    .参数 hThread, 整数型
+    .参数 OpenThreadlpExitCode, 整数型, 传址
+
+.DLL命令 GetProcessHeap, 整数型, "kernel32.dll", "GetProcessHeap", 公开
+
+.DLL命令 HeapFree, 逻辑型, "kernel32.dll", "HeapFree", 公开
+    .参数 hHeap, 整数型
+    .参数 dwFlags, 整数型
+    .参数 lpMem, 整数型
+
+.DLL命令 GdipAddPathEllipse, 整数型, "gdiplus", "GdipAddPathEllipse", 公开
+    .参数 path, 整数型
+    .参数 x, 小数型
+    .参数 y, 小数型
+    .参数 Width, 小数型
+    .参数 Height, 小数型
+
+.DLL命令 GdipSetPathGradientCenterColor, 整数型, "gdiplus", "GdipSetPathGradientCenterColor", 公开
+    .参数 Brush, 整数型
+    .参数 lColors, 整数型
+
+.DLL命令 GdipSetPathGradientSurroundColorsWithCount, 整数型, "gdiplus", "GdipSetPathGradientSurroundColorsWithCount", 公开
+    .参数 Brush, 整数型
+    .参数 argb, 整数型, 数组
+    .参数 count, 整数型, 传址
+
+.DLL命令 IsWindowVisible, 逻辑型, "user32.dll", "IsWindowVisible", 公开
+    .参数 hwnd, 整数型, , ;
+
+.DLL命令 ZwQueryInformationProcess, 整数型, "ntdll.dll", "ZwQueryInformationProcess", 公开
+    .参数 hProcess, 整数型
+    .参数 InfoClass, 整数型
+    .参数 Buffer, 整数型
+    .参数 Bufsize, 整数型
+    .参数 pReqsize, 整数型
+
+.DLL命令 GetAsyncKeyState, 整数型, "user32.dll", "GetAsyncKeyState", 公开
+    .参数 vKey, 整数型
+
+.DLL命令 PtInRegion, 逻辑型, "gdi32.dll", "PtInRegion", 公开
+    .参数 hRgn, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+
+.DLL命令 PtInRect, 逻辑型, "user32.dll", "PtInRect", 公开
+    .参数 lpRect, 整数型
+    .参数 x, 整数型
+    .参数 y, 整数型
+
+.DLL命令 LoadLibrary, 整数型, "kernel32", "LoadLibraryA", 公开
+    .参数 lpLibFileName, 整数型
+
+.DLL命令 FreeLibrary, 整数型, "kernel32", "FreeLibrary", 公开
+    .参数 hLibModule, 整数型
+
+.DLL命令 CoInitialize, , "ole32.dll", "CoInitialize", 公开
+    .参数 pvReserved, 整数型
+
+.DLL命令 CoUninitialize, , "ole32.dll", "CoUninitialize", 公开
+

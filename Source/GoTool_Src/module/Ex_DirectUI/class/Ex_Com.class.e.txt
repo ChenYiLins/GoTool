@@ -1,0 +1,21 @@
+﻿.版本 2
+
+.程序集 Ex_Com, , 公开
+.子程序 ComInit, , 公开
+    
+
+.子程序 _Com, , 公开
+    
+
+.子程序 toCOM, , 公开
+    .参数 p, 字节集
+    .参数 ecx, 逻辑型, 可空
+
+    
+
+.子程序 getThis, 整数型, 公开, comthis
+    
+
+.子程序 ComRelease, , 公开
+    
+

@@ -1,0 +1,15 @@
+﻿{
+    "Rename": {
+        "Struct": [
+            {
+                "Dst": "RECT2",
+                "Src": "RECT"
+            },
+            {
+                "Dst": "POINT2",
+                "Src": "POINT"
+            }
+        ]
+    },
+    "Source": "E:\\03 个人文件夹\\04 EPL工程\\GoTool\\MiniIconSource\\精易模块[v10.1.0].ec"
+}

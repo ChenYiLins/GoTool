@@ -1,0 +1,58 @@
+2022-09-09 19:58:00 [信息] [ SectionCode::ParseLibInfo ]               开始解析【支持库】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::ParseLibInfo ]               完成解析【支持库】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::ParseClasses ]               开始解析【类/程序集】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::ParseClasses ]               完成解析【类/程序集】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::ParseStructs ]               开始解析【自定义】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::ParseStructs ]               完成解析【自定义】数据
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               正在创建代码目录 [目录] E:/03 个人文件夹/04 EPL工程/GoTool/Source/GoTool.代码/class
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出【类/程序集】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【程序集】文本代码 [程序集] 程序入口
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【程序集】文本代码 [程序集] 窗口绘制
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 侧边导航_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_Com
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_IUnknown
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_XML
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_IDispatch
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_ClassBase
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_EventBase
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_DirectUI
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] Ex_ObjBase
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 图片组_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 系统按钮_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 标签_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 图片框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 按钮_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 链接框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 图形按钮_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 列表框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 编辑框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 选择框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 单选框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 进度条_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 组合框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 分组框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 滚动条_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 页面_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 迅雷按钮_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 组图按钮_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 时钟_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 菜单类_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 联动窗口_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 浏览框_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 调节器_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【程序集】文本代码 [程序集] __HIDDEN_TEMP_MOD__
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【类】文本代码 [类] 列表视图_Ex
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【程序集】文本代码 [程序集] __HIDDEN_TEMP_MOD__
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Class ]         正在写出【程序集】文本代码 [程序集] __HIDDEN_TEMP_MOD__
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出【DLL】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Dlls ]          开始写出【DLL】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Dlls ]          完成写出【DLL】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出【全局变量】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_GlobalVars ]    开始写出【全局变量】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_GlobalVars ]    完成写出【全局变量】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出【自定义数据】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Structs ]       开始写出【自定义】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode_Structs ]       完成写出【自定义】文本代码
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               开始写出【支持库】信息
+2022-09-09 19:58:01 [信息] [ SectionCode::WriteTxtCode ]               完成写出文本代码

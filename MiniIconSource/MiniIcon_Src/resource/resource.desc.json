@@ -1,0 +1,18 @@
+﻿{
+    "FMTID_MUSIC": {
+        "Comment": "{56A3372E-CE9C-11D2-9F0E-006097C686F6}",
+        "IsPublic": false
+    },
+    "FMTID_VideoSummaryInformation": {
+        "Comment": "{64440491-4C8B-11D1-8B70-080036B11A03}",
+        "IsPublic": false
+    },
+    "FMTID_WebView": {
+        "Comment": "{F2275480-F782-4291-BD94-F13693513AEC}",
+        "IsPublic": false
+    },
+    "System_AppUserModel": {
+        "Comment": "{9F4C2855-9F79-4B39-A8D0-E1D42DE1D5F3}",
+        "IsPublic": false
+    }
+}

@@ -1,0 +1,75 @@
+﻿.版本 2
+
+.程序集 Ex_IDispatch, , 公开
+.子程序 ComInit, , 公开
+    
+
+.子程序 _Com, , 公开
+    
+
+.子程序 toCOM, , 公开
+    .参数 p, 字节集
+    .参数 ecx, 逻辑型, 可空
+
+    
+
+.子程序 getThis, 整数型, 公开, comthis
+    
+
+.子程序 ComRelease, , 公开
+    
+
+.子程序 _IUnknown, , 公开
+    
+
+.子程序 GetRef, 整数型, 公开
+    
+
+.子程序 QueryInterface, 整数型, 公开
+    .参数 riid, 整数型
+    .参数 ppvObject, 整数型, 参考
+
+    
+
+.子程序 AddRef, 整数型, 公开
+    
+
+.子程序 Release, 整数型, 公开
+    
+
+.子程序 _IDispatch, , 公开
+    
+
+.子程序 GetTypeInfoCount, 整数型, 公开
+    .参数 pctinfo, 整数型, , out
+
+    
+
+.子程序 GetTypeInfo, 整数型, 公开
+    .参数 iTInfo, 整数型
+    .参数 lcid, 整数型
+    .参数 ppTInfo, 整数型
+
+    
+
+.子程序 GetIDsOfNames, 整数型, 公开
+    .参数 riid, 整数型
+    .参数 rgszNames, 整数型
+    .参数 cNames, 整数型
+    .参数 lcid, 整数型
+    .参数 rgDispId, 整数型
+
+    
+
+.子程序 Invoke, 整数型, 公开
+    .参数 dispIdMember, 整数型
+    .参数 riid, 整数型
+    .参数 lcid, 整数型
+    .参数 wFlags, 整数型
+    .参数 pDispParams, 整数型
+    .参数 pVarResult, 整数型
+    .参数 pExcepInfo, 整数型
+    .参数 puArgErr, 整数型
+
+    
+

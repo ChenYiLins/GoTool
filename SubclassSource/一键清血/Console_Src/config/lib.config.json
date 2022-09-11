@@ -1,0 +1,26 @@
+﻿[
+    {
+        "CmdCount": 632,
+        "Guid": "d09f2340818511d396f6aaf844c7e325",
+        "Key": "krnln",
+        "MaxRefConstPos": 22,
+        "MaxRefObjectPos": 49,
+        "Name": "系统核心支持库",
+        "Version": {
+            "Major": 5,
+            "Minor": 7
+        }
+    },
+    {
+        "CmdCount": 0,
+        "Guid": "{84A90340-1CE7-4C96-8FFC-FB0124DE9AD7}",
+        "Key": "exui",
+        "MaxRefConstPos": 110,
+        "MaxRefObjectPos": 0,
+        "Name": "EX_UI界面库",
+        "Version": {
+            "Major": 5197,
+            "Minor": 26
+        }
+    }
+]

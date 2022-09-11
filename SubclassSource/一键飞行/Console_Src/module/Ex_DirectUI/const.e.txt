@@ -1,0 +1,1000 @@
+﻿.版本 2
+
+.常量 Str_Ex_DirectUI, "“Ex_DirectUI”"
+.常量 Str_Theme_SysShadow_HostWnd, "“SysShadow.HostWnd”"
+.常量 Str_Theme_SysShadow_SubWnd, "“SysShadow.SubWnd”"
+.常量 Str_Theme_SysShadow_Menu, "“SysShadow.Menu”"
+.常量 Str_Theme_Gird, "“gird”"
+.常量 Str_Theme_Margin, "“margin”"
+.常量 Str_Theme_Rect, "“rect”"
+.常量 Str_Theme_Size, "“size”"
+.常量 Str_Theme_FillType, "“filltype”"
+.常量 Str_Theme_BlockSize, "“blocksize”"
+.常量 Str_State_Normol, "“normal”"
+.常量 Str_State_HighLight, "“highlight”"
+.常量 Str_State_Down, "“down”"
+.常量 Str_State_Focus, "“focus”"
+.常量 组件类名_系统按钮, "“SysButton”"
+.常量 组件类名_按钮, "“Button”"
+.常量 组件类名_选择框, "“CheckButton”"
+.常量 组件类名_单选框, "“RadioButton”"
+.常量 组件类名_编辑框, "“Edit”"
+.常量 组件类名_标签, "“Label”"
+.常量 组件类名_图片框, "“ImageBox”"
+.常量 组件类名_链接框, "“Link”"
+.常量 组件类名_图形按钮, "“ImageButton”"
+.常量 组件类名_滚动条, "“ScrollBar”"
+.常量 组件类名_分组框, "“GroupBox”"
+.常量 组件类名_组合框, "“ComboBox”"
+.常量 组件类名_列表框, "“ListView”"
+.常量 组件类名_页面, "“Page”"
+.常量 组件类名_迅雷按钮, "“ThunderButton”"
+.常量 组件类名_组图按钮, "“ImageListButton”"
+.常量 组件类名_进度条, "“Progress”"
+.常量 组件类名_调节器, "“UpDown”"
+.常量 组件_系统按钮, "1"
+.常量 组件_标签, "2"
+.常量 组件_图片框, "3"
+.常量 组件_按钮, "4"
+.常量 组件_选择框, "5"
+.常量 组件_单选框, "6"
+.常量 组件_图形按钮, "7"
+.常量 组件_链接框, "8"
+.常量 组件_编辑框, "9"
+.常量 组件_分组框, "10"
+.常量 组件_组合框, "11"
+.常量 组件_列表框, "12"
+.常量 组件_进度条, "13"
+.常量 组件_选择夹, "14"
+.常量 组件_外形框, "15"
+.常量 组件_滚动条, "16"
+.常量 组件_滑块条, "17"
+.常量 组件_工具条, "18"
+.常量 组件_页面, "19"
+.常量 组件_菜单条, "20"
+.常量 组件_树形框, "21"
+.常量 组件_迅雷按钮, "22"
+.常量 组件_组图按钮, "23"
+.常量 组件_调节器, "24"
+.常量 组件_虚表, "25"
+.常量 窗口成员_提示框句柄, "7"
+.常量 窗口成员_标题栏高度, "9"
+.常量 窗口成员_透明度, "10"
+.常量 窗口成员_底图方式, "11"
+.常量 窗口成员_可否随意移动, "15"
+.常量 窗口成员_开启AERO, "17"
+.常量 窗口成员_焦点组件, "19"
+.常量 窗口成员_最后组件, "20"
+.常量 窗口成员_捕获组件, "21"
+.常量 窗口成员_捕获鼠标, "22"
+.常量 窗口成员_可否重画, "23"
+.常量 窗口成员_背景图片, "24"
+.常量 窗口成员_背景颜色, "25"
+.常量 窗口成员_九宫矩形, "39"
+.常量 窗口成员_圆角度, "45"
+.常量 窗口成员_是否描边, "46"
+.常量 组件成员_窗口句柄, "2"
+.常量 组件成员_组件句柄, "3"
+.常量 组件成员_父组件句柄, "5"
+.常量 组件成员_Graphics, "9"
+.常量 组件成员_组件类型, "10"
+.常量 组件成员_ID, "11"
+.常量 组件成员_鼠标指针, "12"
+.常量 组件成员_组件状态, "13"
+.常量 组件成员_TAB停留, "15"
+.常量 组件成员_TAB停留顺序, "16"
+.常量 组件成员_可否重画, "18"
+.常量 组件成员_透明度, "19"
+.常量 组件成员_标记, "20"
+.常量 组件成员_提示文本, "21"
+.常量 组件成员_动画进度, "22"
+.常量 组件成员_绘制TAB边框, "29"
+.常量 组件成员_动画周期, "30"
+.常量 组件成员_动画帧数, "31"
+.常量 组件成员_动画当前帧, "32"
+.常量 组件成员_动画类型, "33"
+.常量 组件成员_注册拖放, "36"
+.常量 组件成员_透明穿透, "37"
+.常量 组件成员_鼠标指针_按下, "41"
+.常量 组件成员_可否捕获鼠标, "42"
+.常量 组件成员_组件类名, "46"
+.常量 组件成员_用户索引, "68"
+.常量 通用方法_ClassBase, "2"
+.常量 通用方法_ObjBase, "15"
+.常量 组件方法_动画回调, "6"
+.常量 组件方法_取窗口句柄, "10"
+.常量 组件方法_取组件句柄, "11"
+.常量 组件方法_取父组件, "12"
+.常量 组件方法_置父组件, "13"
+.常量 组件方法_发送消息, "14"
+.常量 组件方法_投递消息, "15"
+.常量 组件方法_是否已创建, "16"
+.常量 组件方法_销毁, "17"
+.常量 组件方法_调整层次, "18"
+.常量 组件方法_获取焦点, "19"
+.常量 组件方法_删除焦点, "20"
+.常量 组件方法_可有焦点, "21"
+.常量 组件方法_可停留焦点, "22"
+.常量 组件方法_TAB停留, "23"
+.常量 组件方法_TAB停留顺序, "24"
+.常量 组件方法_重画, "25"
+.常量 组件方法_部分重画, "26"
+.常量 组件方法_刷新显示, "27"
+.常量 组件方法_可视, "28"
+.常量 组件方法_移动, "29"
+.常量 组件方法_左边, "30"
+.常量 组件方法_顶边, "31"
+.常量 组件方法_宽度, "32"
+.常量 组件方法_高度, "33"
+.常量 组件方法_矩形, "34"
+.常量 组件方法_置提示文本, "35"
+.常量 组件方法_标记, "36"
+.常量 组件方法_弹出提示, "37"
+.常量 组件方法_弹出提示_Ex, "38"
+.常量 组件方法_区域句柄, "39"
+.常量 组件方法_鼠标指针, "40"
+.常量 组件方法_透明度, "41"
+.常量 组件方法_透明度_Ex, "42"
+.常量 组件方法_透明穿透, "43"
+.常量 组件方法_动画帧数, "44"
+.常量 组件方法_动画周期, "45"
+.常量 组件方法_动画当前帧, "46"
+.常量 组件方法_动画类型, "47"
+.常量 组件方法_禁止, "48"
+.常量 组件方法_绘制Tab边框, "49"
+.常量 组件方法_可否重画, "51"
+.常量 组件方法_获取控制, "52"
+.常量 组件方法_释放控制, "53"
+.常量 组件方法_接受拖放, "54"
+.常量 组件方法_锁定位置, "56"
+.常量 组件方法_字体名称, "57"
+.常量 组件方法_字体名称_W, "58"
+.常量 组件方法_字体尺寸, "60"
+.常量 组件方法_字体风格, "59"
+.常量 组件方法_可否捕获鼠标, "63"
+.常量 组件方法_文本渲染模式, "66"
+.常量 组件方法_用户索引, "90"
+.常量 事件_创建, "1"
+.常量 事件_销毁, "2"
+.常量 事件_移动, "3"
+.常量 事件_尺寸被改变, "5"
+.常量 事件_获取焦点, "7"
+.常量 事件_失去焦点, "8"
+.常量 事件_设置文本, "12"
+.常量 事件_获取文本, "13"
+.常量 事件_绘画, "15"
+.常量 WM_CLOSE, "16"
+.常量 WM_ERASEBKGND, "20"
+.常量 事件_被显示, "24"
+.常量 WM_SETCURSOR, "32"
+.常量 事件_设置字体, "48"
+.常量 事件_获取字体, "49"
+.常量 WM_WINDOWPOSCHANGED, "71"
+.常量 WM_SYSCHAR, "262"
+.常量 事件_命令行, "273"
+.常量 WM_SYSCOMMAND, "274"
+.常量 事件_时钟, "275"
+.常量 事件_按下某键, "256"
+.常量 事件_放开某键, "257"
+.常量 事件_字符输入, "258"
+.常量 事件_鼠标位置被移动, "512"
+.常量 事件_鼠标左键被按下, "513"
+.常量 事件_鼠标左键被放开, "514"
+.常量 事件_被双击, "515"
+.常量 事件_鼠标右键被按下, "516"
+.常量 事件_鼠标右键被放开, "517"
+.常量 事件_滚轮被滚动, "522"
+.常量 事件_收到拖放文件, "563"
+.常量 WM_MOUSELEAVE, "675"
+.常量 事件_被隐藏, "20104"
+.常量 事件_托盘消息, "20105"
+.常量 事件_进入组件, "20106"
+.常量 事件_离开组件, "20107"
+.常量 事件_被单击, "20108"
+.常量 事件_设置主题, "20109"
+.常量 事件_映射方法, "20110"
+.常量 事件_动画开始, "20111"
+.常量 事件_动画结束, "20112"
+.常量 事件_动画中, "20113"
+.常量 事件_绘制开始, "20114"
+.常量 事件_绘制结束, "20115"
+.常量 事件_设置加速键, "20116"
+.常量 事件_禁止组件, "20117"
+.常量 事件_被选中, "20118"
+.常量 WebEvent_StatusTextChange, "102"
+.常量 WebEvent_ProgressChange, "108"
+.常量 WebEvent_CommandStateChange, "105"
+.常量 WebEvent_DownloadBegin, "106"
+.常量 WebEvent_DownloadComplete, "104"
+.常量 WebEvent_TitleChange, "113"
+.常量 WebEvent_PropertyChange, "112"
+.常量 WebEvent_BeforeNavigate2, "250"
+.常量 WebEvent_NewWindow2, "251"
+.常量 WebEvent_NavigateComplete2, "252"
+.常量 WebEvent_DocumentComplete, "259"
+.常量 WebEvent_OnQuit, "253"
+.常量 WebEvent_OnVisible, "254"
+.常量 WebEvent_OnToolBar, "255"
+.常量 WebEvent_OnMenuBar, "256"
+.常量 WebEvent_OnStatusBar, "257"
+.常量 WebEvent_OnFullScreen, "258"
+.常量 WebEvent_OnTheaterMode, "260"
+.常量 WebEvent_WindowSetResizable, "262"
+.常量 WebEvent_WindowSetLeft, "264"
+.常量 WebEvent_WindowSetTop, "265"
+.常量 WebEvent_WindowSetWidth, "266"
+.常量 WebEvent_WindowSetHeight, "267"
+.常量 WebEvent_WindowClosing, "263"
+.常量 WebEvent_ClientToHostWindow, "268"
+.常量 WebEvent_SetSecureLockIcon, "269"
+.常量 WebEvent_FileDownload, "270"
+.常量 WebEvent_NavigateError, "271"
+.常量 WebEvent_PrintTemplateInstantiation, "225"
+.常量 WebEvent_PrintTemplateTeardown, "226"
+.常量 WebEvent_UpdatePageStatus, "227"
+.常量 WebEvent_PrivacyImpactedStateChange, "272"
+.常量 WebEvent_NewWindow3, "273"
+.常量 执行命令_前进, "0"
+.常量 执行命令_后退, "1"
+.常量 执行命令_到首页, "2"
+.常量 执行命令_到搜索页, "3"
+.常量 执行命令_刷新, "4"
+.常量 执行命令_停止, "5"
+.常量 执行命令_另存为, "6"
+.常量 执行命令_打印, "7"
+.常量 执行命令_打印预览, "8"
+.常量 执行命令_页面设置, "9"
+.常量 标题栏_隐藏, "0"
+.常量 标题栏_图标, "1"
+.常量 标题栏_标题, "2"
+.常量 标题栏_关闭按钮, "4"
+.常量 标题栏_最大化按钮, "8"
+.常量 标题栏_最小化按钮, "16"
+.常量 标题栏_菜单按钮, "32"
+.常量 标题栏_皮肤按钮, "64"
+.常量 标题栏_反馈按钮, "128"
+.常量 标题栏_设置按钮, "256"
+.常量 标题栏_默认, "1024"
+.常量 组件层次_顶层, "1"
+.常量 组件层次_底层, "2"
+.常量 组件层次_上一层, "3"
+.常量 组件层次_下一层, "4"
+.常量 组件层次_次高层, "5"
+.常量 组件层次_次底层, "6"
+.常量 S_OK, "0"
+.常量 E_NOTIMPL, "2147500033"
+.常量 底图方式_平铺, "0"
+.常量 底图方式_拉伸, "1"
+.常量 底图方式_居中, "2"
+.常量 底图方式_九宫排列, "3"
+.常量 渐变模式_无, "-1"
+.常量 渐变模式_从左到右, "0"
+.常量 渐变模式_从上到下, "1"
+.常量 渐变模式_从左上到右下, "2"
+.常量 渐变模式_从右上到左下, "3"
+.常量 柔化边缘_左边, "1"
+.常量 柔化边缘_顶边, "2"
+.常量 柔化边缘_右边, "4"
+.常量 柔化边缘_底边, "8"
+.常量 SRCCOPY, "13369376"
+.常量 边框_无, "0"
+.常量 边框_凹入式, "1"
+.常量 边框_凸出式, "2"
+.常量 边框_单线式, "3"
+.常量 边框_虚线式, "4"
+.常量 特效类型_无, "0"
+.常量 特效类型_窗口_渐隐渐显, "1", , 可用标记:#特效标记_渐隐渐显
+.常量 特效类型_窗口_线性伸缩, "2", , 可用标记:#特效标记_渐隐渐显
+.常量 特效类型_窗口_弹性伸缩, "3", , 可用标记:#特效标记_渐隐渐显
+.常量 特效类型_窗口_移动, "4", , 可用标记:#特效标记_方向_ & #特效标记_渐隐渐显.参数1(起始位置)和参数2(结束位置) 被激活.将根据:#特效标记_方向_ 进行移动.
+.常量 特效类型_窗口_QQ, "5", , 可用标记:#特效标记_方向_
+.常量 特效类型_窗口_抖动, "7"
+.常量 特效类型_换肤_渐隐渐显, "100"
+.常量 特效类型_自定义, "444660"
+.常量 特效标记_渐隐渐显, "1"
+.常量 特效标记_方向_自左向右, "2"
+.常量 特效标记_方向_自右向左, "4"
+.常量 特效标记_方向_自上向下, "8"
+.常量 特效标记_方向_自下向上, "16"
+.常量 特效标记_抖动_上下, "32"
+.常量 特效标记_抖动_左右, "64"
+.常量 状态_正常, "0"
+.常量 状态_禁止, "1"
+.常量 状态_选择, "2"
+.常量 状态_焦点, "4"
+.常量 状态_按下, "8"
+.常量 状态_选中, "16"
+.常量 状态_半选, "32"
+.常量 状态_只读, "64"
+.常量 状态_点燃, "128"
+.常量 状态_默认, "256"
+.常量 状态_子项目_可视, "512"
+.常量 状态_子项目_隐藏, "1024"
+.常量 状态_繁忙中, "2048"
+.常量 状态_动画中, "16384"
+.常量 状态_隐藏, "32768"
+.常量 状态_允许拖动, "262144"
+.常量 状态_允许焦点, "1048576"
+.常量 状态_允许选择, "2097152"
+.常量 状态_超链接_点燃, "4194304"
+.常量 状态_超链接_已访问, "8388608"
+.常量 状态_允许多选, "16777216"
+.常量 状态_密码模式, "536870912"
+.常量 纵向对齐_顶对齐, "0"
+.常量 纵向对齐_居中, "1"
+.常量 纵向对齐_底对齐, "2"
+.常量 鼠标指针_标准型, "32512"
+.常量 鼠标指针_文本编辑型, "32513"
+.常量 鼠标指针_沙漏型, "32514"
+.常量 鼠标指针_十字型, "32515"
+.常量 鼠标指针_手型, "32649"
+.常量 鼠标指针_禁止型, "32648"
+.常量 鼠标指针_SIZENESW, "32643"
+.常量 鼠标指针_SIZENS, "32645"
+.常量 鼠标指针_SIZEALL, "32646"
+.常量 鼠标指针_SIZENWSE, "32642"
+.常量 鼠标指针_SIZEWE, "32644"
+.常量 鼠标指针_帮助, "32651"
+.常量 气泡图标_无, "0"
+.常量 气泡图标_信息图标, "1"
+.常量 气泡图标_警告图标, "2"
+.常量 气泡图标_错误图标, "3"
+.常量 气泡图标_信息图标_大, "4", , vista以上
+.常量 气泡图标_警告图标_大, "5", , vista以上
+.常量 气泡图标_错误图标_大, "6", , vista以上
+.常量 文本效果_凹入, "1"
+.常量 文本效果_凸出, "2"
+.常量 文本效果_描边, "3"
+.常量 文本效果_环绕, "4"
+.常量 图标位置_居左, "0"
+.常量 图标位置_居右, "1"
+.常量 图标位置_居上, "2"
+.常量 图标位置_居中, "3"
+.常量 图标位置_绝对居左, "4"
+.常量 图标位置_绝对居右, "5"
+.常量 图标位置_绝对居上, "6"
+.常量 进度状态_暂停, "0"
+.常量 进度状态_运行, "1"
+.常量 方向_横向, "0"
+.常量 方向_纵向, "1"
+.常量 输入方式_通常方式, "0"
+.常量 输入方式_密码方式, "32"
+.常量 输入方式_只读方式, "2048"
+.常量 输入方式_数值文本, "8192"
+.常量 滚动条_横向, "1"
+.常量 滚动条_纵向, "2"
+.常量 滚动条按钮标志_默认, "7"
+.常量 滚动条按钮标志_滚动条, "1"
+.常量 滚动条按钮标志_调节按钮1, "2"
+.常量 滚动条按钮标志_调节按钮2, "4"
+.常量 滚动条隐藏标志_无, "0"
+.常量 滚动条隐藏标志_背景, "1"
+.常量 滚动条隐藏标志_滚动条, "2"
+.常量 滚动条隐藏标志_调节按钮1, "4"
+.常量 滚动条隐藏标志_调节按钮2, "8"
+.常量 滚动条隐藏标志_越界自动隐藏, "16"
+.常量 滚动事件_调节按钮1, "1"
+.常量 滚动事件_调节按钮2, "2"
+.常量 滚动事件_滚动页1, "3"
+.常量 滚动事件_滚动页2, "4"
+.常量 滚动事件_滚动条释放, "5"
+.常量 滚动事件_滚动条拖动, "6"
+.常量 列表类型_列表, "0"
+.常量 列表类型_大图标列表, "1"
+.常量 列表线_无, "0"
+.常量 列表线_横向线, "1"
+.常量 列表线_纵向线, "2"
+.常量 表头方向_上, "0"
+.常量 表头方向_下, "1"
+.常量 表头方向_左, "2"
+.常量 表头方向_右, "3"
+.常量 菜单类型_条目, "1"
+.常量 菜单类型_分割条, "2"
+.常量 菜单回调_子程序, "0"
+.常量 菜单回调_消息, "1"
+.常量 确认图标, "128"
+.常量 动画类型_默认, "0"
+.常量 动画类型_移动_自上向下, "1"
+.常量 动画类型_移动_自下向上, "2"
+.常量 动画类型_移动_自左向右, "3"
+.常量 动画类型_移动_自右向左, "4"
+.常量 REG_NONE, "0"
+.常量 REG_SZ, "1"
+.常量 REG_EXPAND_SZ, "2"
+.常量 REG_BINARY, "3"
+.常量 REG_DWORD, "4"
+.常量 REG_DWORD_LITTLE_ENDIAN, "4"
+.常量 REG_DWORD_BIG_ENDIAN, "5"
+.常量 REG_LINK, "6"
+.常量 REG_MULTI_SZ, "7"
+.常量 REG_QWORD, "11"
+.常量 REG_QWORD_LITTLE_ENDIAN, "11"
+.常量 系统版本_WinXP, "5"
+.常量 系统版本_Win2003, "5.01"
+.常量 系统版本_Vista, "6"
+.常量 系统版本_Win7, "6.1"
+.常量 系统版本_Win2008, "6.11"
+.常量 系统版本_Win8, "6.2"
+.常量 系统版本_Win8_1, "6.3"
+.常量 系统版本_Win2012, "6.31"
+.常量 系统版本_Win10, "6.4"
+.常量 刷新方式_立即, "0", , Flush
+.常量 刷新方式_同步, "1", , Sync
+.常量 混合模式_替换, "0", , CompositingModeSourceOver
+.常量 混合模式_复制, "1", , CompositingModeSourceCopy
+.常量 混合品质_无效, "-1", , CompositingQualityInvalid
+.常量 混合品质_默认, "0", , CompositingQualityDefault
+.常量 混合品质_最佳性能, "1", , CompositingQualityHighSpeed
+.常量 混合品质_最佳质量, "2", , CompositingQualityHighQuality
+.常量 混合品质_伽玛校正, "3", , CompositingQualityGammaCorrected
+.常量 混合品质_假定线性, "4", , CompositingQualityAssumeLinear
+.常量 平滑模式_无效, "-1", , SmoothingModeInvalid
+.常量 平滑模式_默认, "0", , SmoothingModeDefault
+.常量 平滑模式_最佳性能, "1", , SmoothingModeHighSpeed
+.常量 平滑模式_最佳质量, "2", , SmoothingModeHighQuality
+.常量 平滑模式_不抗锯齿, "3", , SmoothingModeNone
+.常量 平滑模式_抗锯齿, "4", , SmoothingModeAntiAlias
+.常量 文本渲染模式_系统默认, "0", , TextRenderingHintSystemDefault
+.常量 文本渲染模式_符号位图和hinting技术, "1", , TextRenderingHintSingleBitPerPixelGridFit
+.常量 文本渲染模式_符号位图, "2", , TextRenderingHintSingleBitPerPixel
+.常量 文本渲染模式_抗锯齿和hinting技术, "3", , TextRenderingHintAntiAliasGridFit
+.常量 文本渲染模式_抗锯齿, "4", , TextRenderingHintAntiAlias
+.常量 文本渲染模式_ClearType文本和hinting技术, "5", , TextRenderingHintClearTypeGridFit
+.常量 算法模式_无效, "-1", , InterpolationModeInvalid
+.常量 算法模式_默认, "0", , InterpolationModeDefault
+.常量 算法模式_低质量, "1", , InterpolationModeLowQuality
+.常量 算法模式_高质量, "2", , InterpolationModeHighQuality
+.常量 算法模式_双线性, "3", , InterpolationModeBilinear
+.常量 算法模式_双三次, "4", , InterpolationModeBicubic
+.常量 算法模式_邻近, "5", , InterpolationModeNearestNeighbor
+.常量 算法模式_高质量双线性, "6", , InterpolationModeHighQualityBilinear
+.常量 算法模式_高质量双三次, "7", , InterpolationModeHighQualityBicubic
+.常量 像素偏移模式_无效, "-1", , PixelOffsetModeInvalid
+.常量 像素偏移模式_默认, "0", , PixelOffsetModeDefault
+.常量 像素偏移模式_高性能, "1", , PixelOffsetModeHighSpeed
+.常量 像素偏移模式_高质量, "2", , PixelOffsetModeHighQuality
+.常量 像素偏移模式_不偏移, "3", , PixelOffsetModeNone
+.常量 像素偏移模式_一半, "4", , PixelOffsetModeHalf
+.常量 单位_世界坐标, "0", , UnitWorld
+.常量 单位_显示器, "1", , UnitDisplay
+.常量 单位_像素, "2", , UnitPixel
+.常量 单位_点, "3", , UnitPoint
+.常量 单位_英寸, "4", , UnitInch
+.常量 单位_文档, "5", , UnitDocument。1/300英寸
+.常量 单位_毫米, "6", , UnitMillimeter。
+.常量 坐标空间_世界, "0", , CoordinateSpaceWorld
+.常量 坐标空间_页, "1", , CoordinateSpacePage
+.常量 坐标空间_设备, "2", , CoordinateSpaceDevice
+.常量 字体风格_普通, "0"
+.常量 字体风格_加粗, "1"
+.常量 字体风格_倾斜, "2"
+.常量 字体风格_加粗倾斜, "3"
+.常量 字体风格_下划线, "4"
+.常量 字体风格_删除线, "8"
+.常量 填充模式_交替, "0", , Alternate 指定交替填充模式。  
+.常量 填充模式_环绕, "1", , Winding 指定环绕填充模式。  
+.常量 合并模式_替代, "0", , Replace 一个剪辑区域被另一个剪辑区域替代。
+.常量 合并模式_交集, "1", , Intersect 通过采用两个剪辑区域的交集组合两个剪辑区域。
+.常量 合并模式_并集, "2", , Union 通过采用两个剪辑区域的联合组合两个剪辑区域。
+.常量 合并模式_并集减交集, "3", , Xor 两者的并集减去两者的交集。通过只采纳单独由其中一个区域（而非两个区域一起）包括的范围来组合两个剪辑区域。
+.常量 合并模式_排除新区域, "4", , Exclude 指定由从现有区域移除的新区域的结果替代现有区域。换言之，从现有区域中排除新区域。
+.常量 合并模式_排除旧区域, "5", , Complement 指定由从新区域移除的现有区域的结果替代现有区域。换言之，从新区域中排除现有区域。
+.常量 颜色调整类型_默认, "0", , ColorAdjustTypeDefault。适应用各类型
+.常量 颜色调整类型_位图, "1", , ColorAdjustTypeBitmap。用于位图
+.常量 颜色调整类型_画刷, "2", , ColorAdjustTypeBrush。用于图元文件中的画刷
+.常量 颜色调整类型_画笔, "3", , ColorAdjustTypePen。用于图元文件中的画笔
+.常量 颜色调整类型_文本, "4", , ColorAdjustTypeText。用于图元文件中的文本的画刷
+.常量 输出通道_C, "0", , ColorChannelFlagsC
+.常量 输出通道_M, "1", , ColorChannelFlagsM
+.常量 输出通道_Y, "2", , ColorChannelFlagsY
+.常量 输出通道_K, "3", , ColorChannelFlagsK
+.常量 输出通道_Last, "4", , ColorChannelFlagsLast
+.常量 调色板标志_含透明色, "1", , PaletteFlagsHasAlpha
+.常量 调色板标志_灰度, "2", , PaletteFlagsGrayScale
+.常量 调色板标志_半色, "4", , PaletteFlagsHalftone
+.常量 矩阵顺序_预先, "0", , Prepend 在旧操作前应用新操作。 
+.常量 矩阵顺序_追加, "1", , Append 在旧操作后应用新操作。 
+.常量 颜色矩阵标志_默认, "0", , ColorMatrixFlagsDefault。所有的颜色值（包括灰度）是由相同的颜色调整矩阵调整的指定
+.常量 颜色矩阵标志_忽略灰度, "1", , ColorMatrixFlagsSkipGrays。不对灰度进行调整
+.常量 颜色矩阵标志_分别, "2", , ColorMatrixFlagsAltGray。颜色是一个矩阵，灰度是另一个矩阵。
+.常量 图像格式_内存BMP, "“{B96B3CAA-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatMemoryBMP
+.常量 图像格式_BMP, "“{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatBMP
+.常量 图像格式_JPEG, "“{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatJPEG
+.常量 图像格式_GIF, "“{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatGIF
+.常量 图像格式_EMF, "“{B96B3CAC-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatEMF
+.常量 图像格式_WMF, "“{B96B3CAD-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatWMF
+.常量 图像格式_TIFF, "“{B96B3CB1-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatTIFF
+.常量 图像格式_PNG, "“{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatPNG
+.常量 图像格式_ICO, "“{B96B3CB5-0728-11D3-9D7B-0000F81EF32E}”", , ImageFormatIcon
+.常量 图像类型_未知, "0", , ImageTypeUnknown
+.常量 图像类型_位图, "1", , ImageTypeBitmap
+.常量 图像类型_图元文件, "2", , ImageTypeMetafile
+.常量 像素格式_Indexed, "65536", , Indexed 该像素数据包含颜色索引值，这意味着这些值是系统颜色表中颜色的索引，而不是单个颜色值。
+.常量 像素格式_GDI, "131072", , Gdi 像素数据包含 GDI 颜色。
+.常量 像素格式_Alpha, "262144", , Alpha 像素数据包含没有进行过自左乘的 alpha 值。
+.常量 像素格式_PAlpha, "524288", , PAlpha 像素格式包含自左乘的 alpha 值。
+.常量 像素格式_Extended, "1048576", , Extended 保留。
+.常量 像素格式_Canonical, "2097152", , Canonical 保留。
+.常量 像素格式_Undefined, "0", , Undefined 未定义像素格式。
+.常量 像素格式_1bppIndexed, "196865", , Format1bppIndexed 指定像素格式为每像素 1 位，并指定它使用索引颜色。因此颜色表中有两种颜色。
+.常量 像素格式_4bppIndexed, "197634", , Format4bppIndexed 指定格式为每像素 4 位而且已创建索引。
+.常量 像素格式_8bppIndexed, "198659", , Format8bppIndexed 指定格式为每像素 8 位而且已创建索引。因此颜色表中有 256 种颜色。
+.常量 像素格式_16bppGrayScale, "1052676", , Format16bppGrayScale 像素格式为每像素 16 位。该颜色信息指定 65536 种灰色调。
+.常量 像素格式_16bppRGB555, "135173", , Format16bppRgb555 指定格式为每像素 16 位；红色、绿色和蓝色分量各使用 5 位。剩余的 1 位未使用。
+.常量 像素格式_16bppRGB565, "135174", , Format16bppRgb565 指定格式为每像素 16 位；红色分量使用 5 位，绿色分量使用 6 位，蓝色分量使用 5 位。
+.常量 像素格式_16bppARGB1555, "397319", , Format16bppArgb1555 像素格式为每像素 16 位。该颜色信息指定 32
+.常量 像素格式_24bppRGB, "137224", , Format24bppRgb 指定格式为每像素 24 位；红色、绿色和蓝色分量各使用 8 位。
+.常量 像素格式_32bppRGB, "139273", , Format32bppRgb 指定格式为每像素 32 位；红色、绿色和蓝色分量各使用 8 位。剩余的 8 位未使用。
+.常量 像素格式_32bppARGB, "2498570", , Format32bppArgb 指定格式为每像素 32 位；alpha、红色、绿色和蓝色分量各使用 8 位。
+.常量 像素格式_32bppPARGB, "925707", , Format32bppPArgb 指定格式为每像素 32 位；alpha、红色、绿色和蓝色分量各使用 8 位。根据 alpha 分量，对红色、绿色和蓝色分量进行自左乘。
+.常量 像素格式_48bppRGB, "1060876", , Format48bppRgb 指定格式为每像素 48 位；红色、绿色和蓝色分量各使用 16 位。
+.常量 像素格式_64bppARGB, "3424269", , Format64bppArgb 指定格式为每像素 64 位；alpha、红色、绿色和蓝色分量各使用 16 位。
+.常量 像素格式_64bppPARGB, "1851406", , Format64bppPArgb 指定格式为每像素 64 位；alpha、红色、绿色和蓝色分量各使用 16 位。根据 alpha 分量，对红色、绿色和蓝色分量进行自左乘。
+.常量 帧维面_时间, "“{6AEDBD6D-3FB5-418A-83A6-7F45229DC872}”", , 用于 GIF
+.常量 帧维面_分辨率, "“{84236F7B-3BD3-428F-8DAB-4EA1439CA315}”"
+.常量 帧维面_页, "“{7462DC86-6180-4C7E-8E3F-EE7333A7A483}”", , 用于 TIFF
+.常量 属性值类型_字节型, "1", , PropertyTagTypeByte
+.常量 属性值类型_字符型, "2", , PropertyTagTypeASCII
+.常量 属性值类型_短整数型, "3", , PropertyTagTypeShort
+.常量 属性值类型_整数型, "4", , PropertyTagTypeLong
+.常量 属性值类型_整数型对, "5", , PropertyTagTypeRational。表示成对的整数数组
+.常量 属性值类型_未定义, "7", , PropertyTagTypeUndefined
+.常量 属性值类型_小数型, "9", , PropertyTagTypeSLONG
+.常量 属性值类型_小数型对, "10", , PropertyTagTypeSRational。表示成对的小数数组
+.常量 属性标签_新子文件, "254", , PropertyTagNewSubfileType
+.常量 属性标签_子文件, "255", , PropertyTagSubfileType
+.常量 属性标签_图像宽度, "256", , PropertyTagImageWidth
+.常量 属性标签_图像高度, "257", , PropertyTagImageHeight
+.常量 属性标签_位深, "258", , PropertyTagBitsPerSample
+.常量 属性标签_压缩, "259", , PropertyTagCompression
+.常量 属性标签_光度测量解释, "262", , PropertyTagPhotometricInterp
+.常量 属性标签_分离黑白, "263", , PropertyTagThreshHolding
+.常量 属性标签_抖动或半色调宽, "264", , PropertyTagCellWidth
+.常量 属性标签_抖动或半色调高, "265", , PropertyTagCellHeight
+.常量 属性标签_填充顺序, "266", , PropertyTagFillOrder
+.常量 属性标签_文档名称, "269", , PropertyTagDocumentName
+.常量 属性标签_图像描述, "270", , PropertyTagImageDescription
+.常量 属性标签_设备制造商, "271", , PropertyTagEquipMake
+.常量 属性标签_设备型号, "272", , PropertyTagEquipModel
+.常量 属性标签_字节偏移量, "273", , PropertyTagStripOffsets
+.常量 属性标签_方向定位, "274", , PropertyTagOrientation
+.常量 属性标签_每像素颜色分量, "277", , PropertyTagSamplesPerPixel
+.常量 属性标签_每行字节数, "278", , PropertyTagRowsPerStrip
+.常量 属性标签_字节总数, "279", , PropertyTagStripBytesCount
+.常量 属性标签_最小采样值, "280", , PropertyTagMinSampleValue
+.常量 属性标签_最大采样值, "281", , PropertyTagMaxSampleValue
+.常量 属性标签_水平分辨率, "282", , PropertyTagXResolution
+.常量 属性标签_垂直分辨率, "283", , PropertyTagYResolution
+.常量 属性标签_数据配置, "284", , PropertyTagPlanarConfig
+.常量 属性标签_页名称, "285", , PropertyTagPageName
+.常量 属性标签_水平位置, "286", , PropertyTagXPosition
+.常量 属性标签_垂直位置, "287", , PropertyTagYPosition
+.常量 属性标签_释放偏移, "288", , PropertyTagFreeOffset
+.常量 属性标签_释放字节偏移, "289", , PropertyTagFreeByteCounts
+.常量 属性标签_灰度单位, "290", , PropertyTagGrayResponseUnit
+.常量 属性标签_灰度密度, "291", , PropertyTagGrayResponseCurve
+.常量 属性标签_T4选项, "292", , PropertyTagT4Option
+.常量 属性标签_T6选项, "293", , PropertyTagT6Option
+.常量 属性标签_分辨率单位, "296", , PropertyTagResolutionUnit
+.常量 属性标签_页码, "297", , PropertyTagPageNumber
+.常量 属性标签_传输功能, "301", , PropertyTagTransferFuncition
+.常量 属性标签_软件名, "305", , PropertyTagSoftwareUsed
+.常量 属性标签_创建时间, "306", , PropertyTagDateTime
+.常量 属性标签_作者, "315", , PropertyTagArtist
+.常量 属性标签_主机名, "316", , PropertyTagHostComputer
+.常量 属性标签_预测, "317", , PropertyTagPredictor
+.常量 属性标签_白点色度, "318", , PropertyTagWhitePoint
+.常量 属性标签_重要颜色, "319", , PropertyTagPrimaryChromaticities
+.常量 属性标签_调色板, "320", , PropertyTagColorMap
+.常量 属性标签_半色调, "321", , PropertyTagHalftoneHints
+.常量 属性标签_平铺宽度, "322", , PropertyTagTileWidth
+.常量 属性标签_平铺长度, "323", , PropertyTagTileLength
+.常量 属性标签_平铺偏移量, "324", , PropertyTagTileOffset
+.常量 属性标签_平铺字节总数, "325", , PropertyTagTileByteCounts
+.常量 属性标签_置墨水, "332", , PropertyTagInkSet
+.常量 属性标签_墨水名, "333", , PropertyTagInkNames
+.常量 属性标签_墨水数, "334", , PropertyTagNumberOfInks
+.常量 属性标签_颜色成分, "336", , PropertyTagDotRange
+.常量 属性标签_打印环境, "337", , PropertyTagTargetPrinter
+.常量 属性标签_额外颜色分量, "338", , PropertyTagExtraSamples
+.常量 属性标签_采样格式, "339", , PropertyTagSampleFormat
+.常量 属性标签_采样最小值, "340", , PropertyTagSMinSampleValue
+.常量 属性标签_采样最大值, "341", , PropertyTagSMaxSampleValue
+.常量 属性标签_传输范围, "342", , PropertyTagTransferRange
+.常量 属性标签_JPEG压缩, "512", , PropertyTagJPEGProc
+.常量 属性标签_JPEG格式, "513", , PropertyTagJPEGInterFormat
+.常量 属性标签_JPEG长度, "514", , PropertyTagJPEGInterLength
+.常量 属性标签_JPEG重置间隔, "515", , PropertyTagJPEGRestartInterval
+.常量 属性标签_JPEG无损预测, "517", , PropertyTagJPEGLosslessPredictors
+.常量 属性标签_JPEG点变化值, "518", , PropertyTagJPEGPointTransforms
+.常量 属性标签_JPEG量化表, "519", , PropertyTagJPEGQTables
+.常量 属性标签_JPEGdc表, "520", , PropertyTagJPEGDCTables
+.常量 属性标签_JPEGac表, "521", , PropertyTagJPEGACTables
+.常量 属性标签_伽玛值, "769", , PropertyTagGamma
+.常量 属性标签_ICC配置文件, "770", , PropertyTagICCProfileDescriptor
+.常量 属性标签_SRGB渲染, "771", , PropertyTagSRGBRenderingIntent
+.常量 属性标签_图像标题, "800", , PropertyTagImageTitle
+.常量 属性标签_版权, "33432", , PropertyTagCopyright
+.常量 属性标签_水平分辨率单位, "20481", , PropertyTagResolutionXUnit。1、每英寸，2.每厘米
+.常量 属性标签_垂直分辨率单位, "20482", , PropertyTagResolutionYUnit。1、每英寸，2.每厘米
+.常量 属性标签_宽度单位, "20483", , PropertyTagResolutionXLengthUnit。1、英寸，2、厘米，3、点，4、派卡，5、列
+.常量 属性标签_高度单位, "20484", , PropertyTagResolutionYLengthUnit。1、英寸，2、厘米，3、点，4、派卡，5、列
+.常量 属性标签_打印选项, "20485", , PropertyTagPrintFlags
+.常量 属性标签_打印版本, "20486", , PropertyTagPrintFlagsVersion
+.常量 属性标签_打印裁剪标志, "20487", , PropertyTagPrintFlagsCrop
+.常量 属性标签_打印宽度, "20488", , PropertyTagPrintFlagsBleedWidth
+.常量 属性标签_打印宽度比例, "20489", , PropertyTagPrintFlagsBleedWidthScale
+.常量 属性标签_网格频率, "20490", , PropertyTagHalftoneLPI
+.常量 属性标签_网格频率单位, "20491", , PropertyTagHalftoneLPIUnit
+.常量 属性标签_网格角度, "20492", , PropertyTagHalftoneDegree
+.常量 属性标签_网格形状, "20493", , PropertyTagHalftoneShape
+.常量 属性标签_网格杂项, "20494", , PropertyTagHalftoneMisc
+.常量 属性标签_网格是否默认屏幕, "20495", , PropertyTagHalftoneScreen
+.常量 属性标签_JPEG品质_Adobe, "20496", , PropertyTagJPEGQuality
+.常量 属性标签_网格大小, "20497", , PropertyTagGridSize
+.常量 属性标签_缩略图格式, "20498", , PropertyTagThumbnailFormat。0、原始RGB，1、JPEG
+.常量 属性标签_缩略图宽度, "20499", , PropertyTagThumbnailWidth
+.常量 属性标签_缩略图高度, "20500", , PropertyTagThumbnailHeight
+.常量 属性标签_缩略图位深, "20501", , PropertyTagThumbnailColorDepth
+.常量 属性标签_缩略图色板数量, "20502", , PropertyTagThumbnailPlanes
+.常量 属性标签_缩略图行字节数, "20503", , PropertyTagThumbnailRawBytes
+.常量 属性标签_缩略图大小, "20504", , PropertyTagThumbnailSize。总字节大小。
+.常量 属性标签_缩略图压缩大小, "20505", , PropertyTagThumbnailCompressedSize。
+.常量 属性标签_颜色传输功能, "20506", , PropertyTagColorTransferFunction
+.常量 属性标签_缩略图数据, "20507", , PropertyTagThumbnailData
+.常量 属性标签_缩略图_宽度, "20512", , PropertyTagThumbnailImageWidth
+.常量 属性标签_缩略图_高度, "20513", , PropertyTagThumbnailImageHeight
+.常量 属性标签_缩略图_位深, "20514", , PropertyTagThumbnailBitsPerSample
+.常量 属性标签_缩略图_压缩, "20515", , PropertyTagThumbnailCompression
+.常量 属性标签_缩略图_光度测量解释, "20516", , PropertyTagThumbnailPhotometricInterp
+.常量 属性标签_缩略图_描述, "20517", , PropertyTagThumbnailImageDescription
+.常量 属性标签_缩略图_设备制造商, "20518", , PropertyTagThumbnailEquipMake
+.常量 属性标签_缩略图_设备制型号, "20519", , PropertyTagThumbnailEquipModel
+.常量 属性标签_缩略图_字节偏移量, "20520", , PropertyTagThumbnailStripOffsets
+.常量 属性标签_缩略图_方向定位, "20521", , PropertyTagThumbnailOrientation
+.常量 属性标签_缩略图_每像素颜色分量, "20522", , PropertyTagThumbnailSamplesPerPixel
+.常量 属性标签_缩略图_每行字节数, "20523", , PropertyTagThumbnailRowsPerStrip
+.常量 属性标签_缩略图_字节总数, "20524", , PropertyTagThumbnailStripBytesCount
+.常量 属性标签_缩略图_水平分辨率, "20525", , PropertyTagThumbnailResolutionX
+.常量 属性标签_缩略图_垂直分辨率, "20526", , PropertyTagThumbnailResolutionY
+.常量 属性标签_缩略图_数据配置, "20527", , PropertyTagThumbnailPlanarConfig
+.常量 属性标签_缩略图_分辨率单位, "20528", , PropertyTagThumbnailResolutionUnit
+.常量 属性标签_缩略图_传输功能, "20529", , PropertyTagThumbnailTransferFunction
+.常量 属性标签_缩略图_软件名, "20530", , PropertyTagThumbnailSoftwareUsed
+.常量 属性标签_缩略图_更改时间, "20531", , PropertyTagThumbnailDateTime
+.常量 属性标签_缩略图_作者, "20532", , PropertyTagThumbnailArtist
+.常量 属性标签_缩略图_白点色度, "20533", , PropertyTagThumbnailWhitePoint
+.常量 属性标签_缩略图_重要颜色, "20534", , PropertyTagThumbnailPrimaryChromaticities
+.常量 属性标签_缩略图_YCbCr数据, "20535", , PropertyTagThumbnailYCbCrCoefficients
+.常量 属性标签_缩略图_YCbCr采样, "20536", , PropertyTagThumbnailYCbCrSubsampling
+.常量 属性标签_缩略图_YCbCr配置, "20537", , PropertyTagThumbnailYCbCrPositioning
+.常量 属性标签_缩略图_黑白参考, "20538", , PropertyTagThumbnailRefBlackWhite
+.常量 属性标签_缩略图_版权信息, "20539", , PropertyTagThumbnailCopyRight
+.常量 属性标签_亮度表, "20624", , PropertyTagLuminanceTable
+.常量 属性标签_色度表, "20625", , PropertyTagChrominanceTable
+.常量 属性标签_帧延时, "20736", , PropertyTagFrameDelay
+.常量 属性标签_循环次数, "20737", , PropertyTagLoopCount。0、无限。
+.常量 属性标签_像素单位, "20752", , PropertyTagPixelUnit
+.常量 属性标签_水平像素单位, "20753", , PropertyTagPixelPerUnitX
+.常量 属性标签_垂直像素单位, "20754", , PropertyTagPixelPerUnitY
+.常量 属性标签_直方图调色板, "20755", , PropertyTagPaletteHistogram
+.常量 属性标签_曝光时间, "33434", , PropertyTagLuminanceTable。单位秒
+.常量 属性标签_焦距, "33437", , PropertyTagExifFNumber
+.常量 属性标签_曝光模式, "34850", , PropertyTagExifExposureProg。0.没有定义，1.手动，2.正常程序，3.光圈优先，4.快门优先，5.创意程序，6.运动模式，7.人像模式，8.风景模式
+.常量 属性标签_测光, "34852", , PropertyTagExifSpectralSense
+.常量 属性标签_感光度, "34855", , PropertyTagExifISOSpeed
+.常量 属性标签_光转换能力, "34856", , PropertyTagExifOECF
+.常量 属性标签_版本, "36864", , PropertyTagExifVer
+.常量 属性标签_原始时间, "36867", , PropertyTagExifDTOrig
+.常量 属性标签_数字时间, "36868", , PropertyTagExifDTDigitized
+.常量 属性标签_扩展压缩, "37121", , PropertyTagExifCompConfig
+.常量 属性标签_压缩BPP, "37122", , PropertyTagExifCompBPP
+.常量 属性标签_快门速度, "37377", , PropertyTagExifShutterSpeed
+.常量 属性标签_光圈, "37378", , PropertyTagExifAperture
+.常量 属性标签_亮度, "37379", , PropertyTagExifBrightness。-99.99到99.99
+.常量 属性标签_曝光偏差, "37380", , PropertyTagExifExposureBias。-99.99到99.99
+.常量 属性标签_最大光圈, "37381", , PropertyTagExifMaxAperture。00.00到99.99
+.常量 属性标签_自动对焦, "37382", , PropertyTagExifSubjectDist
+.常量 属性标签_测光模式, "37383", , PropertyTagExifMeteringMode。0.未知，1.正常，2.中央重点测光，3.点测光，4.多分区，5.平均测光，6.局部测光。
+.常量 属性标签_白平衡, "37384", , PropertyTagExifLightSource。0.未知，1.日光，2.荧光灯，3.钨丝灯，17.标准A，18.标准B，19.标准C，20.D55，21.D65，22.D75。
+.常量 属性标签_闪光灯, "37385", , PropertyTagExifFlash
+.常量 属性标签_实际焦距, "37386", , PropertyTagExifFocalLength
+.常量 属性标签_制造商记录, "37500", , PropertyTagExifMakerNote
+.常量 属性标签_注释标记, "37510", , PropertyTagExifUserComment
+.常量 属性标签_创建时间2, "37520", , PropertyTagExifDTSubsec
+.常量 属性标签_原始时间2, "37521", , PropertyTagExifDTOrigSS
+.常量 属性标签_数字时间2, "37522", , PropertyTagExifDTDigSS
+.常量 属性标签_格式版本, "40960", , PropertyTagExifFPXVer
+.常量 属性标签_颜色空间, "40961", , PropertyTagExifColorSpace
+.常量 属性标签_有效宽度, "40962", , PropertyTagExifPixXDim
+.常量 属性标签_有效高度, "40963", , PropertyTagExifPixYDim
+.常量 属性标签_相关音频文件, "40964", , PropertyTagExifRelatedWav
+.常量 属性标签_偏移块, "40965", , PropertyTagExifInterop
+.常量 属性标签_闪光量, "41483", , PropertyTagExifFlashEnergy
+.常量 属性标签_空间频率表, "41484", , PropertyTagExifSpatialFR
+.常量 属性标签_焦平面X分辨率, "41486", , PropertyTagExifFocalXRes
+.常量 属性标签_焦平面Y分辨率, "41487", , PropertyTagExifFocalYRes
+.常量 属性标签_焦平面分辨率单位, "41488", , PropertyTagExifFocalResUnit
+.常量 属性标签_主要线路, "41492", , PropertyTagExifSubjectLoc
+.常量 属性标签_曝光指数, "41493", , PropertyTagExifExposureIndex
+.常量 属性标签_感光元件, "41495", , PropertyTagExifSensingMethod。1.未定义，2.单芯片，3.双芯片，4.三芯片，5.连续色彩，7.三线，8.线性连续色彩
+.常量 属性标签_图像源, "41728", , PropertyTagExifFileSource
+.常量 属性标签_作品类型, "41729", , PropertyTagExifSceneType
+.常量 属性标签_色彩滤镜阵列, "41730", , PropertyTagExifCfaPattern
+.常量 旋转翻转_不旋转不翻转, "0", , RotateNoneFlipNone
+.常量 旋转翻转_旋转90度不翻转, "1", , Rotate90FlipNone
+.常量 旋转翻转_旋转180度不翻转, "2", , Rotate180FlipNone
+.常量 旋转翻转_旋转270度不翻转, "3", , Rotate270FlipNone
+.常量 旋转翻转_不旋转水平翻转, "4", , RotateNoneFlipX
+.常量 旋转翻转_旋转90度水平翻转, "5", , Rotate90FlipX
+.常量 旋转翻转_旋转180度水平翻转, "6", , Rotate180FlipX
+.常量 旋转翻转_旋转270度水平翻转, "7", , Rotate270FlipX
+.常量 旋转翻转_不旋转垂直翻转, "6", , RotateNoneFlipY
+.常量 旋转翻转_旋转90度垂直翻转, "7", , Rotate90FlipY
+.常量 旋转翻转_旋转180度垂直翻转, "4", , Rotate180FlipY
+.常量 旋转翻转_旋转270度垂直翻转, "5", , Rotate270FlipY
+.常量 旋转翻转_不旋转水平和垂直翻转, "2", , RotateNoneFlipXY
+.常量 旋转翻转_旋转90度水平和垂直翻转, "3", , Rotate90FlipXY
+.常量 旋转翻转_旋转180度水平和垂直翻转, "0", , Rotate180FlipXY
+.常量 旋转翻转_旋转270度水平和垂直翻转, "1", , Rotate270FlipXY
+.常量 编码器_压缩, "“{E09D739D-CCD4-44EE-8EBA-3FBF8BE4FC58}”", , EncoderCompression
+.常量 编码器_色深, "“{66087055-AD66-4C7C-9A18-38A2310B8337}”", , EncoderColorDepth
+.常量 编码器_扫描方式, "“{3A4E2661-3109-4E56-8536-42C156E7DCFA}”", , EncoderScanMethod
+.常量 编码器_版本, "“{24D18C76-814A-41A4-BF53-1C219CCCF797}”", , EncoderVersion
+.常量 编码器_呈现方式, "“{6D42C53A-229A-4825-8BB7-5C99E2B9A8B8}”", , EncoderRenderMethod
+.常量 编码器_品质, "“{1D5BE4B5-FA4A-452D-9CDD-5DB35105E7EB}”", , EncoderQuality
+.常量 编码器_转换, "“{8D0EB2D1-A58E-4EA8-AA14-108074B7B6F9}”", , EncoderTransformation
+.常量 编码器_亮度表, "“{EDB33BCE-0266-4A77-B904-27216099E717}”", , EncoderLuminanceTable
+.常量 编码器_色度表, "“{F2E455DC-09B3-4316-8260-676ADA32481C}”", , EncoderChrominanceTable
+.常量 编码器_保存标志, "“{292266FC-AC40-47BF-8CFC-A85B89A655DE}”", , EncoderSaveFlag
+.常量 编码器参数值类型_字节型, "1", , EncoderParameterValueTypeByte
+.常量 编码器参数值类型_字符型, "2", , EncoderParameterValueTypeASCII
+.常量 编码器参数值类型_短整数型, "3", , EncoderParameterValueTypeShort
+.常量 编码器参数值类型_整数型, "4", , EncoderParameterValueTypeLong
+.常量 编码器参数值类型_整数对, "5", , EncoderParameterValueTypeRational。为整数型数组，有两个成员。第一个表示最小值，第二个表示最大值。
+.常量 编码器参数值类型_整数范围, "6", , EncoderParameterValueTypeLongRange。为整数型数组，有两个成员。第一个表示低32位，第二个表示高32位。
+.常量 编码器参数值类型_未定义, "7", , EncoderParameterValueTypeUndefined。
+.常量 编码器参数值类型_整数对范围, "8", , EncoderParameterValueTypeRationalRange。
+.常量 编码器值_颜色类型CMYK, "0", , EncoderValueColorTypeCMYK。GDI+1.0没有使用。
+.常量 编码器值_颜色类型YCCK, "1", , EncoderValueColorTypeYCCK。GDI+1.0没有使用。
+.常量 编码器值_压缩LZW, "2", , EncoderValueCompressionLZW。对于TIF图像的LZW压缩方法
+.常量 编码器值_压缩CCITT3, "3", , EncoderValueCompressionCCITT3。对于TIF图像的CCITT3压缩方法
+.常量 编码器值_压缩CCITT4, "4", , EncoderValueCompressionCCITT4。对于TIF图像的CCITT4压缩方法
+.常量 编码器值_压缩RLE, "5", , EncoderValueCompressionRle。对于TIF图像的RLE压缩方法
+.常量 编码器值_压缩无, "6", , EncoderValueCompressionNone。对于TIF图像指定无压缩
+.常量 编码器值_扫描方式隔行扫描, "7", , EncoderValueScanMethodInterlaced。GDI+1.0没有使用。
+.常量 编码器值_扫描方式逐行扫描, "8", , EncoderValueScanMethodNonInterlaced。GDI+1.0没有使用。
+.常量 编码器值_版本GIF87, "9", , EncoderValueVersionGif87。GDI+1.0没有使用。
+.常量 编码器值_版本GIF89, "10", , EncoderValueVersionGif89。GDI+1.0没有使用。
+.常量 编码器值_渲染, "11", , EncoderValueRenderProgressive。GDI+1.0没有使用。
+.常量 编码器值_不渲染, "12", , EncoderValueRenderNonProgressive。GDI+1.0没有使用。
+.常量 编码器值_旋转90度, "13", , EncoderValueTransformRotate90。对于JPEG图像无损逆时针旋转90度。
+.常量 编码器值_旋转180度, "14", , EncoderValueTransformRotate180。对于JPEG图像无损旋转180度
+.常量 编码器值_旋转270度, "15", , EncoderValueTransformRotate270。对于JPEG图像无损逆时针旋转270度。
+.常量 编码器值_水平翻转, "16", , EncoderValueTransformFlipHorizontal。对于JPEG图像无损水平翻转。
+.常量 编码器值_垂直翻转, "17", , EncoderValueTransformFlipVertical。对于JPEG图像无损垂直翻转。
+.常量 编码器值_多帧编码, "18", , EncoderValueMultiFrame
+.常量 编码器值_最后一帧, "19", , EncoderValueLastFrame
+.常量 编码器值_刷新, "20", , EncoderValueFlush。指定的编码对象是被关闭的
+.常量 编码器值_帧维面延时, "21", , EncoderValueFrameDimensionTime。GDI+1.0没有使用。
+.常量 编码器值_帧维面分辨率, "22", , EncoderValueFrameDimensionResolution。GDI+1.0没有使用。
+.常量 编码器值_帧维面页, "23", , EncoderValueFrameDimensionPage。对于TIF图像指定页。
+.常量 画刷类型_固定色, "0", , BrushTypeSolidColor
+.常量 画刷类型_阴影, "1", , BrushTypeHatchFill
+.常量 画刷类型_图像纹理, "2", , BrushTypeTextureFill
+.常量 画刷类型_路径渐变, "3", , BrushTypePathGradient
+.常量 画刷类型_线性渐变, "4", , BrushTypeLinearGradient
+.常量 阴影风格_水平线, "0", , Horizontal 水平线的图案。
+.常量 阴影风格_垂直线, "1", , Vertical 垂直线的图案。
+.常量 阴影风格_左斜线, "2", , ForwardDiagonal 从左上到右下的对角线的线条图案。
+.常量 阴影风格_右斜线, "3", , BackwardDiagonal 从右上到左下的对角线的线条图案。
+.常量 阴影风格_十字线, "4", , Cross 指定交叉的水平线和垂直线。
+.常量 阴影风格_交叉斜线, "5", , DiagonalCross 指定互相交叉的正向对角线和反向对角线。这些直线是锯齿消除的。
+.常量 阴影风格_百分05阴影, "6", , Percent05 指定 5% 阴影。前景色与背景色的比例为 5:100。
+.常量 阴影风格_百分10阴影, "7", , Percent10 指定 10% 阴影。前景色与背景色的比例为 10:100。
+.常量 阴影风格_百分20阴影, "8", , Percent20 指定 20% 阴影。前景色与背景色的比例为 20:100。
+.常量 阴影风格_百分25阴影, "9", , Percent25 指定 25% 阴影。前景色与背景色的比例为 25:100。
+.常量 阴影风格_百分30阴影, "10", , Percent30 指定 30% 阴影。前景色与背景色的比例为 30:100。
+.常量 阴影风格_百分40阴影, "11", , Percent40 指定 40% 阴影。前景色与背景色的比例为 40:100。
+.常量 阴影风格_百分50阴影, "12", , Percent50 指定 50% 阴影。前景色与背景色的比例为 50:100。
+.常量 阴影风格_百分60阴影, "13", , Percent60 指定 60% 阴影。前景色与背景色的比例为 60:100。
+.常量 阴影风格_百分70阴影, "14", , Percent70 指定 70% 阴影。前景色与背景色的比例为 70:100。
+.常量 阴影风格_百分75阴影, "15", , Percent75 指定 75% 阴影。前景色与背景色的比例为 75:100。
+.常量 阴影风格_百分80阴影, "16", , Percent80 指定 80% 阴影。前景色与背景色的比例为 80:100。
+.常量 阴影风格_百分90阴影, "17", , Percent90 指定 90% 阴影。前景色与背景色的比例为 90:100。
+.常量 阴影风格_细向下对角线, "18", , LightDownwardDiagonal
+.常量 阴影风格_细向上对角线, "19", , LightUpwardDiagonal 指定从顶点到底点向左倾斜的对角线，其两边夹角比 BackwardDiagonal 小 50%，但这些直线不是锯齿消除的。
+.常量 阴影风格_粗向下对角线, "20", , DarkDownwardDiagonal 指定从顶点到底点向右倾斜的对角线，其两边夹角比 ForwardDiagonal 小 50%，宽度是其两倍。此阴影图案不是锯齿消除的。
+.常量 阴影风格_粗向上对角线, "21", , DarkUpwardDiagonal 指定从顶点到底点向左倾斜的对角线，其两边夹角比 BackwardDiagonal 小 50%，宽度是其两倍，但这些直线不是锯齿消除的。
+.常量 阴影风格_宽向下对角线, "22", , WideDownwardDiagonal 指定从顶点到底点向右倾斜的对角线，其间距与阴影样式 ForwardDiagonal 相同，宽度是其三倍，但它们不是锯齿消除的。
+.常量 阴影风格_宽向上对角线, "23", , WideUpwardDiagonal 指定从顶点到底点向左倾斜的对角线，其间距与阴影样式 BackwardDiagonal 相同，宽度是其三倍，但它们不是锯齿消除的。
+.常量 阴影风格_细垂直线, "24", , LightVertical 指定垂直线的两边夹角比 Vertical 小 50%。
+.常量 阴影风格_细水平线, "25", , LightHorizontal 指定水平线，其两边夹角比 Horizontal 小 50%。
+.常量 阴影风格_密垂直线, "26", , NarrowVertical 指定垂直线的两边夹角比阴影样式 Vertical 小 75%（或者比 LightVertical 小 25%）。
+.常量 阴影风格_密水平线, "27", , NarrowHorizontal 指定水平线的两边夹角比阴影样式 Horizontal 小 75%（或者比 LightHorizontal 小 25%）。
+.常量 阴影风格_粗垂直线, "28", , DarkVertical 指定垂直线的两边夹角比 Vertical 小 50% 并且宽度是其两倍。
+.常量 阴影风格_粗水平线, "29", , DarkHorizontal 指定水平线的两边夹角比水平小 50% 并且宽度是 HatchStyleHorizontal 的两倍。
+.常量 阴影风格_右斜虚线, "30", , DashedDownwardDiagonal 指定虚线对角线，这些对角线从顶点到底点向右倾斜。
+.常量 阴影风格_左斜虚线, "31", , DashedUpwardDiagonal 指定虚线对角线，这些对角线从顶点到底点向左倾斜。
+.常量 阴影风格_水平虚线, "32", , DashedHorizontal 指定虚线水平线。
+.常量 阴影风格_垂直虚线, "33", , DashedVertical 指定虚线垂直线。
+.常量 阴影风格_小五彩纸屑, "34", , SmallConfetti 指定带有五彩纸屑外观的阴影。
+.常量 阴影风格_大五彩纸屑, "35", , LargeConfetti 指定具有五彩纸屑外观的阴影，并且它是由比 SmallConfetti 更大的片构成的。
+.常量 阴影风格_曲线, "36", , ZigZag 指定由 Z 字形构成的水平线。
+.常量 阴影风格_波浪线, "37", , Wave 指定由代字号“~”构成的水平线。
+.常量 阴影风格_对角砖块, "38", , DiagonalBrick 指定具有分层砖块外观的阴影，它从顶点到底点向左倾斜。
+.常量 阴影风格_水平砖块, "39", , HorizontalBrick 指定具有水平分层砖块外观的阴影。
+.常量 阴影风格_编织, "40", , Weave 指定具有织物外观的阴影。
+.常量 阴影风格_花格子, "41", , Plaid 指定具有格子花呢材料外观的阴影。
+.常量 阴影风格_草皮, "42", , Divot 指定具有草皮层外观的阴影。
+.常量 阴影风格_十字点线, "43", , DottedGrid 指定互相交叉的水平线和垂直线，每一直线都是由点构成的。
+.常量 阴影风格_交叉点线, "44", , DottedDiamond 指定互相交叉的正向对角线和反向对角线，每一对角线都是由点构成的。
+.常量 阴影风格_瓦片, "45", , Shingle 指定带有对角分层鹅卵石外观的阴影，它从顶点到底点向右倾斜。
+.常量 阴影风格_网格, "46", , Trellis 指定具有格架外观的阴影。
+.常量 阴影风格_球形, "47", , Sphere 指定具有球体彼此相邻放置的外观的阴影。
+.常量 阴影风格_小网格, "48", , SmallGrid 指定互相交叉的水平线和垂直线，其两边夹角比阴影样式 Cross 小 50%。
+.常量 阴影风格_小棋盘, "49", , SmallCheckerBoard 指定带有棋盘外观的阴影。
+.常量 阴影风格_大棋盘, "50", , LargeCheckerBoard 指定具有棋盘外观的阴影，棋盘所具有的方格大小是 SmallCheckerBoard 大小的两倍。
+.常量 阴影风格_边线金刚石, "51", , OutlinedDiamond 指定互相交叉的正向对角线和反向对角线，但这些对角线不是锯齿消除的。
+.常量 阴影风格_金刚石, "52", , SolidDiamond 指定具有对角放置的棋盘外观的阴影。
+.常量 阴影风格_大网格, "4", , LargeGrid 指定阴影样式 Cross。
+.常量 环绕模式_平铺, "0", , Tile 平铺渐变或纹理。
+.常量 环绕模式_平铺水平翻转, "1", , TileFlipX 水平反转纹理或渐变，然后平铺该纹理或渐变。
+.常量 环绕模式_平铺垂直翻转, "2", , TileFlipY 垂直反转纹理或渐变，然后平铺该纹理或渐变。
+.常量 环绕模式_平铺水平垂直翻转, "3", , TileFlipXY 水平和垂直反转纹理或渐变，然后平铺该纹理或渐变。
+.常量 环绕模式_固定, "4", , Clamp 纹理或渐变没有平铺。
+.常量 线性渐变模式_从左到右, "0", , Horizontal 指定从左到右的渐变。
+.常量 线性渐变模式_从上到下, "1", , Vertical 指定从上到下的渐变。
+.常量 线性渐变模式_从左上到右下, "2", , ForwardDiagonal 指定从左上到右下的渐变。
+.常量 线性渐变模式_从右上到左下, "3", , BackwardDiagonal 指定从右上到左下的渐变。
+.常量 线帽样式_平线帽, "0", , LineCapFlat
+.常量 线帽样式_方线帽, "1", , LineCapSquare
+.常量 线帽样式_圆线帽, "2", , LineCapRound
+.常量 线帽样式_三角线帽, "3", , LineCapTriangle
+.常量 线帽样式_没有锚, "16", , LineCapNoAnchor
+.常量 线帽样式_方锚头帽, "17", , LineCapSquareAnchor
+.常量 线帽样式_圆锚头帽, "18", , LineCapRoundAnchor
+.常量 线帽样式_菱形锚头帽, "19", , LineCapDiamondAnchor
+.常量 线帽样式_箭头状锚头帽, "20", , LineCapArrowAnchor
+.常量 线帽样式_自定义线帽, "255", , LineCapCustom
+.常量 虚线帽样式_方线帽, "0", , DashCapFlat
+.常量 虚线帽样式_圆线帽, "2", , DashCapRound
+.常量 虚线帽样式_三角线帽, "3", , DashCapTriangle
+.常量 连线方式_斜接, "0", , LineJoinMiter
+.常量 连线方式_斜角, "1", , LineJoinBevel
+.常量 连线方式_圆角, "2", , LineJoinRound
+.常量 连线方式_斜接截断, "3", , LineJoinMiterClipped。1.0没有使用
+.常量 画笔对齐方式_居中, "0"
+.常量 画笔对齐方式_内侧, "1"
+.常量 画笔对齐方式_外侧, "2", , 1.0没有使用
+.常量 画笔对齐方式_左侧, "3", , 1.0没有使用
+.常量 画笔对齐方式_右侧, "4", , 1.0没有使用
+.常量 画笔类型_固色, "0"
+.常量 画笔类型_阴影, "1"
+.常量 画笔类型_图像纹理, "2"
+.常量 画笔类型_路径渐变, "3"
+.常量 画笔类型_线性渐变, "4"
+.常量 画笔类型_未知, "-1"
+.常量 虚线类型_实线, "0", , DashStyleSolid
+.常量 虚线类型_划线, "1", , DashStyleDash
+.常量 虚线类型_点线, "2", , DashStyleDot
+.常量 虚线类型_点划线, "3", , DashStyleDashDot
+.常量 虚线类型_双点划线, "4", , DashStyleDashDotDot
+.常量 虚线类型_自定义, "5", , DashStyleCustom
+.常量 路径点类型_开始, "0", , PathPointTypeStart
+.常量 路径点类型_直线, "1", , PathPointTypeLine
+.常量 路径点类型_贝塞尔曲线, "3", , PathPointTypeBezier
+.常量 路径点类型_类型掩膜, "7", , PathPointTypePathTypeMask
+.常量 路径点类型_虚线模式, "16", , PathPointTypePathDashMode。1.0没有使用
+.常量 路径点类型_标记, "32", , PathPointTypePathMarker
+.常量 路径点类型_关闭子路径, "128", , PathPointTypeCloseSubpath
+.常量 路径点类型_贝塞尔曲线2, "2", , PathPointTypeBezier2
+.常量 路径点类型_贝塞尔曲线3, "3", , PathPointTypeBezier3
+.常量 路径点类型_贝塞尔曲线4, "4", , PathPointTypeBezier4
+.常量 路径点类型_贝塞尔曲线5, "5", , PathPointTypeBezier5
+.常量 路径点类型_贝塞尔曲线6, "6", , PathPointTypeBezier6
+.常量 文本格式标志_方向右到左, "1", , StringFormatFlagsDirectionRightToLeft
+.常量 文本格式标志_方向垂直, "2", , StringFormatFlagsDirectionVertical
+.常量 文本格式标志_允许部分延伸, "4", , StringFormatFlagsNoFitBlackBox
+.常量 文本格式标志_Unicode, "32", , StringFormatFlagsDisplayFormatControl
+.常量 文本格式标志_禁止不支持字符, "1024", , StringFormatFlagsNoFontFallback
+.常量 文本格式标志_包含结尾空字符, "2048", , StringFormatFlagsMeasureTrailingSpaces
+.常量 文本格式标志_不换行, "4096", , StringFormatFlagsNoWrap
+.常量 文本格式标志_整行布局, "8192", , StringFormatFlagsLineLimit。若要确保看到的都是整行，请指定此值，并仔细地提供格式化矩形，使其高度至少为一个行高
+.常量 文本格式标志_不裁剪, "16384", , StringFormatFlagsNoClip
+.常量 文本对齐_左对齐, "0", , StringAlignmentNear
+.常量 文本对齐_居中, "1", , StringAlignmentCenter 
+.常量 文本对齐_右对齐, "2", , StringAlignmentFar 
+.常量 文本修整_无, "0", , StringTrimmingNone。指定不进行任何修整。
+.常量 文本修整_字符, "1", , StringTrimmingCharacter。指定将文本修整成最接近的字符。
+.常量 文本修整_单词, "2", , StringTrimmingWord。指定将文本修整成最接近的单词。
+.常量 文本修整_字符和省略号, "3", , StringTrimmingEllipsisCharacter。指定将文本修整成最接近的字符，并在被修整的行的末尾插入一个省略号。 
+.常量 文本修整_单词和省略号, "4", , StringTrimmingEllipsisWord。指定将文本修整成最接近的单词，并在被修整的行的末尾插入一个省略号。
+.常量 文本修整_路径和省略号, "5", , StringTrimmingEllipsisPath。中心从被修整的行移除并用省略号替换。这种算法尽可能多地保留了行中的最后一个由斜杠分隔的段。
+.常量 热键前缀_无, "0", , HotkeyPrefixNone
+.常量 热键前缀_显示, "1", , HotkeyPrefixShow
+.常量 热键前缀_隐藏, "2", , HotkeyPrefixHide
+.常量 文本数字替换_用户定义, "0", , StringDigitSubstituteUser
+.常量 文本数字替换_无, "1", , StringDigitSubstituteNone 
+.常量 文本数字替换_国家, "2", , StringDigitSubstituteNational
+.常量 文本数字替换_本地, "3", , StringDigitSubstituteTraditional
+.常量 扭曲模式_透视, "0"
+.常量 扭曲模式_双线性, "1"
+.常量 图像锁定模式_读, "1", , ImageLockModeRead
+.常量 图像锁定模式_写, "2", , ImageLockModeWrite
+.常量 图像锁定模式_用户分配缓冲区, "4", , ImageLockModeUserInputBuf 
+.常量 EMF类型_Emf, "3", , EmfTypeEmfOnly
+.常量 EMF类型_EmfPlusOnly, "4", , EmfTypeEmfPlusOnly
+.常量 EMF类型_EmfPlusDual, "5", , EmfTypeEmfPlusDual
+.常量 控制文本标志_查找映射表, "1", , DriverStringOptionsCmapLookup。必须包含此标志，原因暂时不明
+.常量 控制文本标志_垂直显示, "2", , DriverStringOptionsVertical
+.常量 控制文本标志_预先实现, "4", , DriverStringOptionsRealizedAdvance。只提供第一个字符的坐标。
+.常量 控制文本标志_高质量, "8", , DriverStringOptionsLimitSubpixel
+.常量 曲线调整_曝光, "0", , AdjustExposure 调整值为：-255到255之间
+.常量 曲线调整_密度, "1", , AdjustDensity 调整值为：-255到255之间
+.常量 曲线调整_对比度, "2", , AdjustContrast 调整值为：-100到100之间
+.常量 曲线调整_高光, "3", , AdjustHighlight 调整值为：-100到100之间
+.常量 曲线调整_阴影, "4", , AdjustShadow 调整值为：-100到100之间
+.常量 曲线调整_中间色调, "5", , AdjustMidtone 调整值为：-100到100之间
+.常量 曲线调整_白色饱和度, "6", , AdjustWhiteSaturation 调整值为：0到255之间
+.常量 曲线调整_黑色饱和度, "7", , AdjustBlackSaturation 调整值为：0到255之间
+.常量 曲线通道_所有, "0", , CurveChannelAll
+.常量 曲线通道_红, "1", , CurveChannelRed
+.常量 曲线通道_绿, "2", , CurveChannelGreen
+.常量 曲线通道_蓝, "3", , CurveChannelBlue
+.常量 EMF到WMF标志_默认, "0", , EmfToWmfBitsFlagsDefault
+.常量 EMF到WMF标志_嵌入, "1", , EmfToWmfBitsFlagsEmbedEmf
+.常量 EMF到WMF标志_包含文件头, "2", , EmfToWmfBitsFlagsIncludePlaceable
+.常量 EMF到WMF标志_不异或裁剪, "3", , EmfToWmfBitsFlagsNoXORClip
+.常量 IMAGE_BITMAP, "0"
+.常量 IMAGE_ICON, "1"
+.常量 IMAGE_CURSOR, "2"
+.常量 缓动类型_线性运动, "1"
+.常量 缓动类型_圆线性插值缓动, "2"
+.常量 缓动类型_弹性缓动, "3"
+.常量 缓动类型_冲击缓动, "4"
+.常量 缓动类型_二次方缓动_In, "5"
+.常量 缓动类型_二次方缓动_Out, "6"
+.常量 缓动类型_二次方缓动_InOut, "7"
+.常量 缓动类型_三次方缓动_In, "8"
+.常量 缓动类型_三次方缓动_Out, "9"
+.常量 缓动类型_三次方缓动_InOut, "10"
+.常量 缓动类型_四次方缓动_In, "11"
+.常量 缓动类型_四次方缓动_Out, "12"
+.常量 缓动类型_四次方缓动_InOut, "13"
+.常量 缓动类型_五次方缓动_In, "14"
+.常量 缓动类型_五次方缓动_Out, "15"
+.常量 缓动类型_五次方缓动_InOut, "16"
+.常量 缓动类型_正弦曲线缓动_In, "17"
+.常量 缓动类型_正弦曲线缓动_Out, "18"
+.常量 缓动类型_正弦曲线缓动_InOut, "19"
+.常量 缓动类型_指数曲线缓动_In, "20"
+.常量 缓动类型_指数曲线缓动_Out, "21"
+.常量 缓动类型_指数曲线缓动_InOut, "22"
+.常量 缓动类型_圆曲线缓动_In, "23"
+.常量 缓动类型_圆曲线缓动_Out, "24"
+.常量 缓动类型_圆曲线缓动_InOut, "25"
+.常量 缓动类型_反弹缓动_指数衰减_In, "26"
+.常量 缓动类型_反弹缓动_指数衰减_Out, "27"
+.常量 缓动类型_反弹缓动_指数衰减_InOut, "28"
+.常量 缓动类型_三次方缓动_溢出_In, "29"
+.常量 缓动类型_三次方缓动_溢出_Out, "30"
+.常量 缓动类型_三次方缓动_溢出_InOut, "31"
+.常量 缓动类型_正弦曲线缓动_指数衰减_In, "32"
+.常量 缓动类型_正弦曲线缓动_指数衰减_Out, "33"
+.常量 缓动类型_正弦曲线缓动_指数衰减_InOut, "34"
+.常量 PAGE_EXECUTE, "16"
+.常量 PAGE_EXECUTE_READ, "32"
+.常量 PAGE_EXECUTE_READWRITE, "64"
+.常量 PAGE_EXECUTE_WRITECOPY, "128"
+.常量 PAGE_GUARD, "256"
+.常量 PAGE_NOACCESS, "1"
+.常量 PAGE_NOCACHE, "512"
+.常量 PAGE_READONLY, "2"
+.常量 PAGE_READWRITE, "4"
+.常量 PAGE_WRITECOMBINE, "1024"
+.常量 PAGE_WRITECOPY, "8"
+.常量 拖拽类型_不可拖拽, "0"
+.常量 拖拽类型_移动位置, "1"
+.常量 拖拽类型_交换位置, "2"
+.常量 拖拽类型_拖拽数据, "3"

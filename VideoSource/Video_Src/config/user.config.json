@@ -1,0 +1,23 @@
+﻿{
+    "Address": "",
+    "Author": "ChenYiLin",
+    "BuilderVersion": {
+        "Major": 0,
+        "Minor": 0
+    },
+    "CompilePlugins": "",
+    "Copyright": "",
+    "Description": "",
+    "Email": "",
+    "ExportPublicClassMethod": false,
+    "FaxNumber": "",
+    "Homepage": "",
+    "Name": "Video",
+    "ReleaseVersion": {
+        "Major": 1,
+        "Minor": 4
+    },
+    "TelephoneNumber": "",
+    "WriteVersion": false,
+    "ZipCode": ""
+}

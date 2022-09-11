@@ -1,0 +1,23 @@
+﻿{
+    "Address": "",
+    "Author": "",
+    "BuilderVersion": {
+        "Major": 0,
+        "Minor": 0
+    },
+    "CompilePlugins": "",
+    "Copyright": "",
+    "Description": "MyScript",
+    "Email": "",
+    "ExportPublicClassMethod": false,
+    "FaxNumber": "",
+    "Homepage": "",
+    "Name": "Console",
+    "ReleaseVersion": {
+        "Major": 1,
+        "Minor": 3
+    },
+    "TelephoneNumber": "",
+    "WriteVersion": false,
+    "ZipCode": ""
+}
