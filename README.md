@@ -1,10 +1,10 @@
-![输入图片说明](E:\03 个人文件夹\04 EPL工程\GoTool\Res\Photo\NewVersion\Photo.png)
+![输入图片说明](Res\Photo\NewVersion\Photo.png)
 # GoTool
 
 ## 介绍
 软件部分截图
-![输入图片说明](E:\03 个人文件夹\04 EPL工程\GoTool\Res\Photo\NewVersion\1.png)
-![输入图片说明](E:\03 个人文件夹\04 EPL工程\GoTool\Res\Photo\NewVersion\2.png)![](E:\03 个人文件夹\04 EPL工程\GoTool\Res\Photo\NewVersion\3.png)
+![输入图片说明](Res\Photo\NewVersion\1.png)
+![输入图片说明](Res\Photo\NewVersion\2.png)![](Res\Photo\NewVersion\3.png)
 
 ## 下载
 
