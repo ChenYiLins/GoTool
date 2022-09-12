@@ -192,6 +192,15 @@ xxx.cfg脚本文件写出到与程序同一目录即可，注意！cfg脚本文�
 2. 通过B站联系我(UID:107146424 昵称:陈翼霖)
 3. 直接添加我的QQ:1062790901(最好是通过方式1或2)
 
+## 项目所引用模块和内容（致以感谢！）
+
+- Exdui（引用版本：3.0.15.510）
+- [精易模块](http://ec.125.la/)（引用版本：10.1.0）
+- [Exdui WinUI](https://gitee.com/ChenYiLinS/exdui-WinUI)（引用版本：1.3）
+- DocumentSearch（引用版本：1.3）
+- [WinUI](https://docs.microsoft.com/zh-cn/windows/apps/winui/)
+- [e2txt](https://bbs.125.la/forum.php?mod=viewthread&tid=14649894)（引用版本：1.2）
+
 ## 支持我（也欢迎你白嫖）
 
 用爱发电，欢迎支持！ :kissing_closed_eyes: 
