@@ -3,8 +3,8 @@
 
 ## 介绍
 软件部分截图
-![输入图片说明](Res\Photo\NewVersion\1.png)
-![输入图片说明](Res\Photo\NewVersion\2.png)![](Res\Photo\NewVersion\3.png)
+![](Res\Photo\NewVersion\1.png)
+![](Res\Photo\NewVersion\2.png)![]!!!![](Res\Photo\NewVersion\3.png)
 
 ## 下载
 
@@ -205,5 +205,5 @@ xxx.cfg脚本文件写出到与程序同一目录即可，注意！cfg脚本文�
 
 用爱发电，欢迎支持！ :kissing_closed_eyes: 
 
-![输入图片说明](Res/Other/Pay-1.png)
-![输入图片说明](Res/Other/Pay-2.png)
+![](Res/Other/Pay-1.png)
+![](Res/Other/Pay-2.png)
