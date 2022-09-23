@@ -1,10 +1,11 @@
-![输入图片说明](Res\Photo\NewVersion\Photo.png)
+![](Res/Photo/NewVersion/Photo.png)
 # GoTool
 
 ## 介绍
 软件部分截图
-![](Res\Photo\NewVersion\1.png)
-![](Res\Photo\NewVersion\2.png)![]!!!![](Res\Photo\NewVersion\3.png)
+![](Res/Photo/NewVersion/1.png)
+![](Res/Photo/NewVersion/2.png)
+![](Res/Photo/NewVersion/3.png)
 
 ## 下载
 
