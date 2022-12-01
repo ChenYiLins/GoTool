@@ -1,1 +1,0 @@
- "+lookatweapon;r_cleardecals"
