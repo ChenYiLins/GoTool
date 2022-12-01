@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="GoTool.Views.CfgPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <MenuFlyout x:Key="ListView_MenuFlyout">
+            <MenuFlyoutItem x:ConnectionId='2' x:Uid="CfgPage_ListView_MenuItem_1" Tag="Edit"                              >
+                <MenuFlyoutItem.Icon>
+                    <FontIcon Glyph="&#xE70F;"/>
+                </MenuFlyoutItem.Icon>
+            </MenuFlyoutItem>
+            <MenuFlyoutItem x:ConnectionId='3' x:Uid="CfgPage_ListView_MenuItem_2"  Tag="Set"                              >
+                <MenuFlyoutItem.Icon>
+                    <FontIcon Glyph="&#xE713;"/>
+                </MenuFlyoutItem.Icon>
+            </MenuFlyoutItem>
+        </MenuFlyout>
+    </Page.Resources>
+
+
+    <Grid x:ConnectionId='4' x:Name="ContentArea">
+
+        <ContentDialog x:ConnectionId='5' 
+           x:Uid="CfgPage_Dialog_CmdError"
+           x:Name="Dialog_CmdError">
+        </ContentDialog>
+
+        <ContentDialog x:ConnectionId='6' 
+           x:Uid="CfgPage_Dialog_CSGOError"
+           x:Name="Dialog_CSGOError">
+        </ContentDialog>
+
+        <ListView x:ConnectionId='7'
+        x:Name="ListView"
+        BorderBrush="{ThemeResource SystemControlForegroundBaseMediumLowBrush}"
+        SelectionMode="Multiple"
+        Width="900"
+        Height="480"
+        HorizontalAlignment="Left"
+        Margin="0,-60,0,0"
+        ContextFlyout="{StaticResource ListView_MenuFlyout}"
+        IsItemClickEnabled="True"
+                                      
+        />
+    </Grid>
+</Page>
+

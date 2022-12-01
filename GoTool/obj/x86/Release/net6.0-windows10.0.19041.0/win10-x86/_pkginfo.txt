@@ -1,0 +1,1 @@
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool\bin\x86\Release\net6.0-windows10.0.19041.0\win10-x86\AppPackages\GoTool_1.0.0.0_Test\GoTool_1.0.0.0_x86.msix
