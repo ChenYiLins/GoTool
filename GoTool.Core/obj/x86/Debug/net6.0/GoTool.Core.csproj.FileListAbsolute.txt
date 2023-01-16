@@ -1,0 +1,24 @@
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.deps.json
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.pdb
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.csproj.AssemblyReference.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.AssemblyInfoInputs.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.AssemblyInfo.cs
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.csproj.CoreCompileInputs.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\refint\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.pdb
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Debug\net6.0\ref\GoTool.Core.dll
+D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.deps.json
+D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.dll
+D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x86\Debug\net6.0\GoTool.Core.pdb
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.csproj.AssemblyReference.cache
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.AssemblyInfoInputs.cache
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.AssemblyInfo.cs
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.csproj.CoreCompileInputs.cache
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.dll
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\refint\GoTool.Core.dll
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\GoTool.Core.pdb
+D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x86\Debug\net6.0\ref\GoTool.Core.dll

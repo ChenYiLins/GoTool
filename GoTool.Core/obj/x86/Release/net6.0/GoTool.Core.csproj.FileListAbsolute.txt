@@ -1,0 +1,12 @@
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Release\net6.0\GoTool.Core.deps.json
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Release\net6.0\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\bin\x86\Release\net6.0\GoTool.Core.pdb
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.csproj.AssemblyReference.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.AssemblyInfoInputs.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.AssemblyInfo.cs
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.csproj.CoreCompileInputs.cache
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\refint\GoTool.Core.dll
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\GoTool.Core.pdb
+E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x86\Release\net6.0\ref\GoTool.Core.dll

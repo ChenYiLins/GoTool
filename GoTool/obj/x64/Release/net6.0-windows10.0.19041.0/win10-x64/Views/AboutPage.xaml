@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="GoTool.Views.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='2' x:Name="ContentArea">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Assets/icon.png" Width="120" Height="120" HorizontalAlignment="Left" Grid.Column="0" Margin="-10,-430,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_1" Style="{StaticResource SubtitleTextBlockStyle}" FontWeight="Bold" FontSize="24" HorizontalAlignment="Center" Grid.Column="0" Margin="0,0,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_2" Style="{StaticResource SubtitleTextBlockStyle}" FontSize="18" HorizontalAlignment="Center" Grid.Column="0" Margin="0,60,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_3" Style="{StaticResource BodyTextBlockStyle}" FontWeight="Bold" FontSize="16" Margin="0,120,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_4" Style="{StaticResource BodyTextBlockStyle}" FontSize="16" Margin="0,160,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_5" Style="{StaticResource BodyTextBlockStyle}" FontSize="16" Margin="0,200,0,0"/>
+        <TextBlock x:Uid="AboutPage_TextBlock_6" Style="{StaticResource BodyTextBlockStyle}" FontSize="16" Margin="0,240,0,0"/>
+    </Grid>
+</Page>
+

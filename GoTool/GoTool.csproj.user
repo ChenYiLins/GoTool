@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeployOptionalPackages>False</DeployOptionalPackages>
+    <Source>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</Source>
+    <AppIconSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</AppIconSource>
+    <SplashScreenSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</SplashScreenSource>
+    <PackageLogoSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
