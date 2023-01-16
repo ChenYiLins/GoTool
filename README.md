@@ -228,6 +228,3 @@ xxx.cfg脚本文件写出到与程序同一目录即可，注意！cfg脚本文�
 ## 支持我（也欢迎你白嫖）
 
 用爱发电，欢迎支持！ :kissing_closed_eyes: 
-
-![](Res/Other/Pay-1.png)
-![](Res/Other/Pay-2.png)
