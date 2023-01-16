@@ -1,4 +1,4 @@
-![](GoTool/Res/Photo/Cover picture.png)
+![](GoTool/Res/Photo/CoverPicture.png)
 # GoTool
 
 ## 介绍
