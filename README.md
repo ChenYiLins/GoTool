@@ -1,12 +1,12 @@
-![](GoTool\Res\Photo\Cover picture.png)
+![](GoTool/Res/Photo/Cover picture.png)
 # GoTool
 
 ## 介绍
 软件部分截图
 
-![](GoTool\Res\Photo\Screenshots_1.png)
-![](GoTool\Res\Photo\Screenshots_2.png)
-![](GoTool\Res\Photo\Screenshots_3.png)
+![](GoTool/Res/Photo/Screenshots_1.png)
+![](GoTool/Res/Photo/Screenshots_2.png)
+![](GoTool/Res/Photo/Screenshots_3.png)
 
 ## 下载
 
