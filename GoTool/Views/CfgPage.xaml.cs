@@ -1,21 +1,15 @@
-﻿using GoTool.ViewModels;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Windows;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.IO;
 using System.Text;
-
+using GoTool.ViewModels;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Input;
-using ICommand = System.Windows.Input.ICommand;
 
 namespace GoTool.Views;
 
 public sealed partial class CfgPage : Page
 {
-    public static string Path_App = GetLeft(System.AppDomain.CurrentDomain.BaseDirectory, System.AppDomain.CurrentDomain.BaseDirectory.Length-4);//获取程序运行路径
+    public static string Path_App = GetLeft(System.AppDomain.CurrentDomain.BaseDirectory, System.AppDomain.CurrentDomain.BaseDirectory.Length - 4);//获取程序运行路径
 
     public CfgViewModel ViewModel
     {
@@ -35,13 +29,14 @@ public sealed partial class CfgPage : Page
     {
         ViewModel = App.GetService<CfgViewModel>();
         InitializeComponent();
+        Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);//注册编码
         //Debug.WriteLine(Path_App);//测试代码
         //Debug.WriteLine(MainWindow.GlobalVar.hWnd);//测试代码
         //*************************************************************************************
         if (Directory.Exists(Path_App + @"Script\") == true)
         {
             //Debug.WriteLine("我是傻逼");//测试代码
-            Item_Cfg= EnumerateSubdirectories(Path_App + @"Script\");//获取Script目录下的子文件夹
+            Item_Cfg = EnumerateSubdirectories(Path_App + @"Script\");//获取Script目录下的子文件夹
             //*************************************************************************************
             //object Test_Items = "我是傻逼";//测试代码
             //ListView.Items.Add(Test_Items);//测试代码
@@ -77,11 +72,11 @@ public sealed partial class CfgPage : Page
         //Debug.WriteLine(ListView.Items.IndexOf("一键跳投"));//测试代码
         if (ListView.SelectionMode == ListViewSelectionMode.Multiple)
         {
-            
+
             //*************************************************************************************
             if (File.Exists(Path_CSGO + @"\csgo.exe") == true)//是否能找到CSGO文件
             {
-                string Name_Cfg = ReadIniData("Config","Cmd","", Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Config.ini");
+                string Name_Cfg = ReadIniData("Config", "Cmd", "", Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Config.ini");
                 if (ReadIniData("Config", "Function", "", Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Config.ini") == "true")
                 {
                     WriteIniData("Config", "Function", "false", Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Config.ini");
@@ -91,7 +86,7 @@ public sealed partial class CfgPage : Page
                 else
                 {
                     WriteIniData("Config", "Function", "true", Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Config.ini");
-                    if (File.Exists(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\" + Name_Cfg)==true)
+                    if (File.Exists(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\" + Name_Cfg) == true)
                     {
                         File.Copy(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\" + Name_Cfg, Path_CSGO + @"\csgo\cfg\" + Name_Cfg, true);//复制脚本
                     }
@@ -112,12 +107,16 @@ public sealed partial class CfgPage : Page
             if (File.Exists(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe") == true)
             {
                 //Debug.WriteLine(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe " + Convert.ToString(MainWindow.GlobalVar.hWnd));//测试代码
+                
                 await Task.Delay(200);//延迟执行启动控制台
-                ProcessStartInfo Info = new ProcessStartInfo();
-                Info.FileName = Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe";
-                Info.Arguments = Convert.ToString(MainWindow.GlobalVar.hWnd);
-                Process Process = Process.Start(Info);
-                Process.WaitForExit();
+
+                //*******************************************************************************
+                //File.WriteAllText(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Run.bat","start "+ Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe",Encoding.GetEncoding("GBK"));
+                //WinExec(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Run.bat",0);
+                //*******************************************************************************
+
+                Process Process = Process.Start(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe");
+                _ = Process.WaitForExitAsync();
             }//如果能找到脚本控制台
             else
             {
@@ -229,14 +228,14 @@ public sealed partial class CfgPage : Page
     #region 取文本左边
     public static string GetLeft(string str, int n)//取文本左边
     {
-        string Temp = str.Substring(0,n);
+        string Temp = str.Substring(0, n);
         return Temp;
     }
     #endregion
     #region 取文本右边
     public static string GetRight(string str, int n)//取文本右边
     {
-        string Temp = str.Substring(str.Length-n);
+        string Temp = str.Substring(str.Length - n);
         return Temp;
     }
     #endregion

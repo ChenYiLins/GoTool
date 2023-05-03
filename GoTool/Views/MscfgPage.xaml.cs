@@ -1,15 +1,8 @@
-﻿using GoTool.ViewModels;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Windows;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
-
+using GoTool.ViewModels;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Input;
-using ICommand = System.Windows.Input.ICommand;
 
 namespace GoTool.Views;
 
@@ -48,7 +41,7 @@ public sealed partial class MscfgPage : Page
                 if (ReadIniData("Config", "Function", "", Path_App + @"Mscfg\" + Item_Mscfg[i] + @"\Config.ini") == "true")
                 {
                     ListView.SelectRange(new Microsoft.UI.Xaml.Data.ItemIndexRange(i, 1));
-                    string Text_Mscfg = System.IO.File.ReadAllText(Path_App + @"Mscfg\" + Item_Mscfg[i]+@"\Mscfg.txt");//读入启动项命令行
+                    string Text_Mscfg = System.IO.File.ReadAllText(Path_App + @"Mscfg\" + Item_Mscfg[i] + @"\Mscfg.txt");//读入启动项命令行
                     TextBox.Text = TextBox.Text + Text_Mscfg + " ";
                 }
             }//管理ListView中应该被选定的项目

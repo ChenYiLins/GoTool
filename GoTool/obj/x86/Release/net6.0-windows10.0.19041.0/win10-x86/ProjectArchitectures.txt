@@ -1,1 +1,1 @@
-E:\03 个人文件夹\08 VS工程\GoTool\GoTool\GoTool.csproj;x86
+D:\Project\Source\CSharp\GoTool\GoTool\GoTool.csproj;x86

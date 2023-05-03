@@ -10,15 +10,3 @@ E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTo
 E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x64\Release\net6.0\refint\GoTool.Core.dll
 E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.pdb
 E:\03 个人文件夹\08 VS工程\GoTool\GoTool.Core\obj\x64\Release\net6.0\ref\GoTool.Core.dll
-D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x64\Release\net6.0\GoTool.Core.deps.json
-D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x64\Release\net6.0\GoTool.Core.dll
-D:\Project\Source\CSharp\GoTool\GoTool.Core\bin\x64\Release\net6.0\GoTool.Core.pdb
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.csproj.AssemblyReference.cache
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.AssemblyInfoInputs.cache
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.AssemblyInfo.cs
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.csproj.CoreCompileInputs.cache
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.dll
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\refint\GoTool.Core.dll
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\GoTool.Core.pdb
-D:\Project\Source\CSharp\GoTool\GoTool.Core\obj\x64\Release\net6.0\ref\GoTool.Core.dll

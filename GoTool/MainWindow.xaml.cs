@@ -1,8 +1,8 @@
-﻿using GoTool.Helpers;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
-using Windows.UI;
+using GoTool.Helpers;
 using Windows.Graphics;
+using Windows.UI;
 
 namespace GoTool;
 public sealed partial class MainWindow : WindowEx
@@ -17,7 +17,7 @@ public sealed partial class MainWindow : WindowEx
     static extern int GetWindowLong(IntPtr hWnd, int nIndex);
     //**************************
     [DllImport("user32.dll")]
-    static extern IntPtr SendMessage(IntPtr hwnd, int msg,int wParam, int lParam);
+    static extern IntPtr SendMessage(IntPtr hwnd, int msg, int wParam, int lParam);
     //**************************
     [DllImport("user32.dll")]
     private static extern uint GetDpiForWindow([In] IntPtr hmonitor);
@@ -59,7 +59,7 @@ public sealed partial class MainWindow : WindowEx
         MoveSpace.Y = 0;
         MoveSpace.Width = (int)(1080 * windowRatio);//标题栏宽度1080
         MoveSpace.Height = (int)(48 * windowRatio);//标题栏高度48
-        AppWindow.TitleBar.SetDragRectangles(new RectInt32[] { MoveSpace});//设置拖动区域
+        AppWindow.TitleBar.SetDragRectangles(new RectInt32[] { MoveSpace });//设置拖动区域
         AppWindow.TitleBar.ButtonBackgroundColor = Color.FromArgb(0, 0, 0, 0);//设置默认背景色
         AppWindow.TitleBar.ButtonInactiveBackgroundColor = Color.FromArgb(0, 0, 0, 0);//设置失焦背景色
         AppWindow.TitleBar.IconShowOptions = Microsoft.UI.Windowing.IconShowOptions.HideIconAndSystemMenu;//隐藏图标

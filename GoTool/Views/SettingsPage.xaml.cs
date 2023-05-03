@@ -1,16 +1,9 @@
-﻿using GoTool.ViewModels;
-
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Windows;
-using System.Runtime.InteropServices;
-using System.Text;
+﻿using System.Runtime.InteropServices;
 using System.Security.Principal;
-
-using Windows.Storage.Pickers;
+using System.Text;
+using GoTool.ViewModels;
 using Microsoft.UI.Xaml.Controls;
+using Windows.Storage.Pickers;
 
 namespace GoTool.Views;
 
@@ -29,30 +22,30 @@ public sealed partial class SettingsPage : Page
         ViewModel = App.GetService<SettingsViewModel>();
         InitializeComponent();
         //*************************************************************************************
-        TextBox_Path.Text= ReadIniData("Config", "Path", "", Path_App + @"Config.ini");//读入CSGO路径
+        TextBox_Path.Text = ReadIniData("Config", "Path", "", Path_App + @"Config.ini");//读入CSGO路径
         //*************************************************************************************
     }
 
     private async void Button_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
     {
-            Button Button_Sender = (Button)sender;
-            switch (Button_Sender.Name)
-            {
-                case "Button_Chose":
+        Button Button_Sender = (Button)sender;
+        switch (Button_Sender.Name)
+        {
+            case "Button_Chose":
                 //*************************************************************************************
                 //Debug.WriteLine("我是傻逼");//测试代码
                 FolderPicker Folder_Picker = new FolderPicker();
                 WinRT.Interop.InitializeWithWindow.Initialize(Folder_Picker, MainWindow.GlobalVar.hWnd);
-                var File =await Folder_Picker.PickSingleFolderAsync();
+                var File = await Folder_Picker.PickSingleFolderAsync();
                 //Debug.WriteLine(File.Path);//测试代码
                 if (File != null)
                 {
                     TextBox_Path.Text = File.Path;
-                    WriteIniData("Config","Path",File.Path,Path_App+@"Config.ini");//写入CSGO路径
+                    WriteIniData("Config", "Path", File.Path, Path_App + @"Config.ini");//写入CSGO路径
                 }//如果获取路径不为空
                 //*************************************************************************************
                 break;
-            }
+        }
 
     }
 

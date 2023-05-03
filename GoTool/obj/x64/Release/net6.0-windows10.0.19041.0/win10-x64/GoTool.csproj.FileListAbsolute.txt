@@ -522,6 +522,7 @@ D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.ui.xaml.resources.common.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.dll
+D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Insights.Resource.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Release.Net.dll
@@ -644,7 +645,6 @@ D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\zh-TW\Microsoft.UI.Xaml.Phone.dll.mui
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml\Assets\NoiseAsset_256x256_PNG.png
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\WindowsAppRuntime.png
-D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\GoTool.exe
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\appsettings.json
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\App.xbf
@@ -929,7 +929,7 @@ D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1322.58009.dll
+D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1523.11507.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Release\net6.0-windows10.0.19041.0\win10-x64\msquic.dll

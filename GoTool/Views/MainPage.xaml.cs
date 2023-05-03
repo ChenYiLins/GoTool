@@ -1,16 +1,7 @@
-﻿using GoTool.ViewModels;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Windows;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
-
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Input;
-using ICommand = System.Windows.Input.ICommand;
-
+using GoTool.ViewModels;
 using Microsoft.UI.Xaml.Controls;
 
 namespace GoTool.Views;
@@ -51,7 +42,7 @@ public sealed partial class MainPage : Page
                 }
             }//管理ListView中应该被选定的项目
             //Debug.WriteLine("Text:"+Text_AllMscfg);//测试代码
-            if (Text_AllMscfg!=null)
+            if (Text_AllMscfg != null)
             {
                 Text_AllMscfg = GetLeft(Text_AllMscfg, Text_AllMscfg.Length - 1);
             }
@@ -61,8 +52,8 @@ public sealed partial class MainPage : Page
     }
     private async void Button_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
     {
-        string Path="";
-        Process[] Path_Process =Process.GetProcessesByName("Steam");
+        string Path = "";
+        Process[] Path_Process = Process.GetProcessesByName("Steam");
         foreach (Process Path_Name in Path_Process)
         {
             Path = Path_Name.MainModule.FileName.ToString();

@@ -6,5 +6,10 @@
     <AppIconSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</AppIconSource>
     <SplashScreenSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</SplashScreenSource>
     <PackageLogoSource>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\Assets\icon.png</PackageLogoSource>
+    <_LastSelectedProfileId>D:\Project\Source\CSharp\GoTool\GoTool\Properties\PublishProfiles\win10-x86.pubxml</_LastSelectedProfileId>
+    <ActiveDebugProfile>GoTool (Package)</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
