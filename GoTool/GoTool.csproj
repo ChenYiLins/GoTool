@@ -15,6 +15,9 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
     <DefaultLanguage>zh-cn</DefaultLanguage>
+    <AssemblyVersion>3.1.0</AssemblyVersion>
+    <FileVersion>3.1.0</FileVersion>
+    <Version>3.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,19 +25,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="7.1.2" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.3" />
-    <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.8" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230313.1" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.9" />
     <PackageReference Include="PInvoke.User32" Version="0.7.124" />
-    <PackageReference Include="WinUIEx" Version="1.8.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+    <PackageReference Include="WinUIEx" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GoTool.Core\GoTool.Core.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Assets\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Config.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -52,7 +65,7 @@
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LayoutDir>E:\03 个人文件夹\08 VS工程\GoTool\GoTool\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\bin</LayoutDir>
+    <LayoutDir>D:\Project\Source\CSharp\GoTool\GoTool\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\bin</LayoutDir>
   </PropertyGroup>
 
   <Target Name="_RemoveFrameworkReferences" BeforeTargets="_ConvertItems;_CalculateInputsForGenerateCurrentProjectAppxManifest">

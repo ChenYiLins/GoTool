@@ -5,8 +5,6 @@ using GoTool.Helpers;
 using GoTool.Models;
 
 using Microsoft.Extensions.Options;
-
-using Windows.ApplicationModel;
 using Windows.Storage;
 
 namespace GoTool.Services;
