@@ -115,8 +115,10 @@ public sealed partial class CfgPage : Page
                 //WinExec(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Run.bat",0);
                 //*******************************************************************************
 
-                Process Process = Process.Start(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe");
-                _ = Process.WaitForExitAsync();
+                Process Process_Console = Process.Start(Path_App + @"Script\" + Convert.ToString(e.ClickedItem) + @"\Console.exe");
+                _ = Process_Console.StartInfo.Verb = "runas";
+                _ = Process_Console.WaitForExitAsync();
+
             }//如果能找到脚本控制台
             else
             {
