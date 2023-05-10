@@ -13,7 +13,7 @@
 
 ## 下载
 
-1. [蓝奏云](https://wwra.lanzouf.com/iN9S50uywvpi)
+1. [蓝奏云]https://wwra.lanzouf.com/iYSx90v6tztg)
 2. [阿里云盘](http://www.aliyundrive.com/s/gbyMPzR3cDr)（目前已停用，仅供老版本下载）
 
 ## 更新日志
